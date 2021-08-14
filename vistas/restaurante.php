@@ -33,9 +33,9 @@
 
 
         <h2 class="subtitulo">Revisa nuestros diseños exclusivos:</h2>
-        <a class="catalogo" id="catalogo" href="#">Ver catálogo completo</a>
+        <button class="catalogo" id="catalogo">Ver catálogo completo</button>
 
-        <a class="cotizar" href="contacto.php">Cotizar</a>
+        <a href="contacto.php"><button class="cotizar">Cotizar</button></a>
 
 
 
