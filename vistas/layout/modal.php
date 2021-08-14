@@ -1,9 +1,6 @@
-        <input type="checkbox" id="btn-modal">
-        <label for="btn-modal" class="lbl-modal"><i class="fas fa-angle-double-down"></i></label>
-        
-        <div class="modal">
+        <div class="modal" id="modal">
             <div class="contenedor activo">
-                <label for="btn-modal" class="lbl-modal"><i class="fas fa-angle-double-up"></i></label>
+                <button class="cerrar" id="cerrar">Cerrar</button>
                 <h1>CONTENIDO EXCLUSIVO</h1>
                 <div class="contenido">
                     <div class="izquierda">
@@ -31,7 +28,7 @@
                 </div>
             </div>
             <div class="contenedor inactivo">
-                <label for="btn-modal" class="lbl-modal"><i class="fas fa-angle-double-up"></i></label>
+                <button id="cerrar"></button>
                 <div class="contenido">
                     <div class="izquierda">
                         <div id="photosphere"> </div>
