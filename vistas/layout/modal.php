@@ -1,6 +1,6 @@
         <div class="modal" id="modal">
             <div class="contenedor activo">
-                <button class="cerrar" id="cerrar">Cerrar</button>
+                <button class="cerrar" id="cerrar">X</button>
                 <h1>CONTENIDO EXCLUSIVO</h1>
                 <div class="contenido">
                     <div class="izquierda">
