@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabaja con nosotros</title>
-    <link rel="stylesheet" href="../public/css/shared/header.css">
-    <link rel="stylesheet" href="../public/css/work_us.css">
-    <link rel="stylesheet" href="../public/css/shared/footer.css">
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+    <link rel="shortcut icon" href="../ico.ico" type="image/x-icon">
+    <link rel="preload" href="../public/css/shared/header.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="../public/css/shared/footer.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="../public/css/work_us.css" as="style" onload="this.onload=null;this.rel='stylesheet'">    
+    <script defer src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body>
 <?php require_once "layout/header.php" ?>

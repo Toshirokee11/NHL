@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
-    <link rel="stylesheet" href="../public/css/shared/header.css">
-    <link rel="stylesheet" href="../public/css/contacto.css">
-    <link rel="stylesheet" href="../public/css/shared/footer.css">
+    <link rel="shortcut icon" href="../ico.ico" type="image/x-icon">
+    <link rel="preload" href="../public/css/shared/header.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="../public/css/shared/footer.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="../public/css/contacto.css" as="style" onload="this.onload=null;this.rel='stylesheet'">    
 </head>
 <body>
 <?php require_once "layout/header.php" ?>

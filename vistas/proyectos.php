@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyectos destacados</title>
 
-    <link rel="stylesheet" href="../public/css/shared/header.css">
-    <link rel="stylesheet" href="../public/css/shared/footer.css">
-    <link rel="stylesheet" href="../public/css/proyectos.css">
+    <link rel="shortcut icon" href="../ico.ico" type="image/x-icon">
+    <link rel="preload" href="../public/css/shared/header.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="../public/css/shared/footer.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="../public/css/proyectos.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
 </head>
 <body>

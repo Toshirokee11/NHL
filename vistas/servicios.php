@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neon House Led-Servicios</title>
 
-    <link rel="stylesheet" href="../public/css/shared/header.css">
-    <link rel="stylesheet" href="../public/css/shared/footer.css">
-    <link rel="stylesheet" href="../public/css/shared/categoria.css">
+    <link rel="shortcut icon" href="../ico.ico" type="image/x-icon">
+    <link rel="preload" href="../public/css/shared/header.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="../public/css/shared/footer.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="../public/css/shared/categoria.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 </head>
 
 <body>
