@@ -1,22 +1,22 @@
-    <link rel="stylesheet" href="../public/css/shared/header.css">
+    <link rel="shortcut icon" href="../ico.ico" type="image/x-icon">
     
-    <link rel="stylesheet" href="../public/css/shared/footer.css">
-
-    <link rel="stylesheet" href="../public/css/shared/slider.css">
-
-    <link rel="stylesheet" href="../public/css/shared/modal.css">
-
-    <link rel="stylesheet" href="../public/css/shared/restaurante.css">
-
-    <link rel="stylesheet" href="../public/css/shared/whatsapp.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preload" href="../public/css/shared/header.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     
-    <link href="https://cdn.rawgit.com/mistic100/Photo-Sphere-Viewer/3.1.0/dist/photo-sphere-viewer.min.css" rel="stylesheet">
+    <link rel="preload" href="../public/css/shared/footer.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/threejs/r70/three.min.js"> </script>
+    <link rel="preload" href="../public/css/shared/slider.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
-    <script src="https://cdn.rawgit.com/mistic100/Photo-Sphere-Viewer/3.1.0/dist/photo-sphere-viewer.min.js"> </script>
+    <link rel="preload" href="../public/css/shared/modal.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+    <link rel="preload" href="../public/css/shared/restaurante.css" as="style" onload="this.onload=null;this.rel='stylesheet'">   
+
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    
+    <link rel="preload" href="https://cdn.rawgit.com/mistic100/Photo-Sphere-Viewer/3.1.0/dist/photo-sphere-viewer.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+    <script defer src="https://ajax.googleapis.com/ajax/libs/threejs/r70/three.min.js"> </script>
+
+    <script defer src="https://cdn.rawgit.com/mistic100/Photo-Sphere-Viewer/3.1.0/dist/photo-sphere-viewer.min.js"> </script>
 
     <style>
         #photosphere { height:460px; width:100%; margin: 0 auto; }

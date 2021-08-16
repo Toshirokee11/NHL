@@ -8,11 +8,10 @@
     <title>Neon House Led</title>
     <link rel="shortcut icon" href="ico.ico" type="image/x-icon">
     <meta name="description" content="Empresa dedicada al diseño de interiores y remodelación de locales comerciales u hogares, contando con los mejores materiales de decoración  y comunicación."/>
-    <meta name="keywords" content="Diseño, Remodelación, Decoracion">
-    <link rel="stylesheet" href="public/css/shared/header.css">
-    <link rel="stylesheet" href="public/css/shared/whatsapp.css">
+    <meta name="keywords" content="Diseño, Remodelación, Decoracion">    
     
     <!--<link rel="stylesheet" href="public/css/shared/footer.css">-->
+    <link rel="preload" href="public/css/shared/header.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="public/css/shared/categoria_index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="public/css/shared/auspicio.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="public/css/shared/footer.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
