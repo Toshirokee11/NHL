@@ -19,11 +19,15 @@
     <section class="contact">
         <h2 class="contact-title">Contacto</h2>
         <div class="contact-contact-container">
-            <div class="contact-description">
+            
+            <div class="contact-description"> 
+                <div class="img_container">
+                </div>
                 <p>
                     Si requieres mayor información o estás interesado sobre alguno de nuestros productos. Completa nuestro formulario y nos pondremos en contacto contigo a la brevedad posible.
-                </p>
+                </p>        
             </div>
+
             <div class="contact-form-container">
                 <!-- Formulario -->
                 <form class="contact-form" action="../controladores/enviarcorreo.php" method="POST">
