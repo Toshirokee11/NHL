@@ -66,7 +66,7 @@
     </main>
     <?php require_once "layout/foother.php" ?>
     
-    <script type="text/javascript" src="../public/js/catalogrequest.js"></script>
+    <script defer type="text/javascript" src="../public/js/modal.js"></script>
     <script defer>
     // 360 viewer
     var PSV = new PhotoSphereViewer({
