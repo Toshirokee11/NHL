@@ -108,74 +108,87 @@
             </figure>
 
             <figure class="categoria1__imagen">
-                <a href="restaurante.php">
-                <img class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/restaurante.webp" alt=""></a>
+                <a href="dental.php">
+                <img class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/dental.webp" alt=""></a>
                 <figcaption class="categoria1__desc">CLINICA DENTAL</figcaption>
             </figure>
 
             
             <figure class="categoria1__imagen derecha">
-                <a href="cevicheria.php">
-                <img class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/cevicheria.webp" alt=""></a>
+                <a href="departamento.php">
+                <img class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/departamento.webp" alt=""></a>
+                <figcaption class="categoria1__desc">DEPARTAMENTO</figcaption>
+            </figure>
+
+            <figure class="categoria1__imagen">
+                <a href="dormitorio.php">
+                <img class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/dormitorio.webp" alt=""></a>
                 <figcaption class="categoria1__desc">DORMITORIO PARA NIÑOS</figcaption>
             </figure>
 
+            
+            <figure class="categoria1__imagen derecha">
+                <a href="industrial.php">
+                <img class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/industrial.webp" alt=""></a>
+                <figcaption class="categoria1__desc">ESTILO INDUSTRIAL</figcaption>
+            </figure>
+
             <figure class="categoria1__imagen">
-                <a href="restaurante.php">
-                <img class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/restaurante.webp" alt=""></a>
+                <a href="soda.php">
+                <img class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/soda.webp" alt=""></a>
+                <figcaption class="categoria1__desc">FUENTE DE SODA</figcaption>
+            </figure>
+
+            
+            <figure class="categoria1__imagen derecha">
+                <a href="gimnasio.php">
+                <img class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/gimnasio.webp" alt=""></a>
                 <figcaption class="categoria1__desc">GIMNASIO</figcaption>
             </figure>
 
-            
-            <figure class="categoria1__imagen derecha">
-                <a href="cevicheria.php">
-                <img class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/cevicheria.webp" alt=""></a>
+            <figure class="categoria1__imagen">
+                <a href="hoteles.php">
+                <img class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/hoteles.webp" alt=""></a>
                 <figcaption class="categoria1__desc">HOTELES</figcaption>
             </figure>
 
-            <figure class="categoria1__imagen">
-                <a href="restaurante.php">
-                <img class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/restaurante.webp" alt=""></a>
+            
+            <figure class="categoria1__imagen derecha">
+                <a href="recepciones.php">
+                <img class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/recepciones.webp" alt=""></a>
                 <figcaption class="categoria1__desc">RECEPCIONES</figcaption>
             </figure>
 
-            
-            <figure class="categoria1__imagen derecha">
-                <a href="cevicheria.php">
-                <img class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/cevicheria.webp" alt=""></a>
+            <figure class="categoria1__imagen">
+                <a href="restobar.php">
+                <img class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/restobar.webp" alt=""></a>
                 <figcaption class="categoria1__desc">RESTOBAR</figcaption>
             </figure>
 
-            <figure class="categoria1__imagen">
-                <a href="restaurante.php">
-                <img class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/restaurante.webp" alt=""></a>
+            
+            <figure class="categoria1__imagen derecha">
+                <a href="belleza.php">
+                <img class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/belleza.webp" alt=""></a>
                 <figcaption class="categoria1__desc">SALÓN BELLEZA Y BARBERIA</figcaption>
             </figure>
 
-            
-            <figure class="categoria1__imagen derecha">
-                <a href="cevicheria.php">
-                <img class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/cevicheria.webp" alt=""></a>
+            <figure class="categoria1__imagen">
+                <a href="terraza.php">
+                <img class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/terraza.webp" alt=""></a>
                 <figcaption class="categoria1__desc">TERRAZA</figcaption>
             </figure>
 
-            <figure class="categoria1__imagen">
-                <a href="restaurante.php">
-                <img class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/restaurante.webp" alt=""></a>
-                <figcaption class="categoria1__desc">TIENDA DE ROPAS</figcaption>
-            </figure>
-
             
             <figure class="categoria1__imagen derecha">
-                <a href="cevicheria.php">
-                <img class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/cevicheria.webp" alt=""></a>
-                <figcaption class="categoria1__desc">VETERINARIA</figcaption>
+                <a href="ropa.php">
+                <img class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/ropa.webp" alt=""></a>
+                <figcaption class="categoria1__desc">ROPA</figcaption>
             </figure>
 
             <figure class="categoria1__imagen">
-                <a href="restaurante.php">
-                <img class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/restaurante.webp" alt=""></a>
-                <figcaption class="categoria1__desc">DEPARTAMENTO</figcaption>
+                <a href="veterinaria.php">
+                <img class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/veterinaria.webp" alt=""></a>
+                <figcaption class="categoria1__desc">VETERINARIA</figcaption>
             </figure>
     </main>
 
