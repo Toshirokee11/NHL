@@ -169,9 +169,6 @@
                 <figcaption class="categoria__desc">HOGAR</figcaption>
             </figure>
 
-
-
-
             <figure class="categoria__imagen">
                 <img class="categoria__img lazyload" id="imagen_10" data-src="public/imagenes/pizzeria_c.webp" alt="">
                 <figcaption class="categoria__desc">PIZZERIA</figcaption>
@@ -191,10 +188,58 @@
                 <figcaption class="categoria__desc">MINIMARKET</figcaption>
             </figure>
          
-
-
-
+         
+            <!--Nuevas categorias-->
+            
+            <figure class="categoria__imagen">
+                <img class="categoria__img lazyload" id="imagen__11" data-src="public/imagenes/panaderia y pasteleria_c.webp" alt="">
+                <figcaption class="categoria__desc">CLINICA DENTAL</figcaption>
+            </figure>
+            <figure class="categoria__imagen">
+                <img class="categoria__img lazyload" id="imagen__12" data-src="public/imagenes/cafeteria y jugueria_c.webp" alt="">
+                <figcaption class="categoria__desc">DORMITORIO PARA NIÑOS</figcaption>
+            </figure>
+            <figure class="categoria__imagen">
+                <img class="categoria__img lazyload" id="imagen__13" data-src="public/imagenes/minimarket.webp" alt="">
+                <figcaption class="categoria__desc">GIMNASIO</figcaption>
+            </figure>                
+            
+            <figure class="categoria__imagen">
+                <img class="categoria__img lazyload" id="imagen__11" data-src="public/imagenes/panaderia y pasteleria_c.webp" alt="">
+                <figcaption class="categoria__desc">HOTELES</figcaption>
+            </figure>
+            <figure class="categoria__imagen">
+                <img class="categoria__img lazyload" id="imagen__12" data-src="public/imagenes/cafeteria y jugueria_c.webp" alt="">
+                <figcaption class="categoria__desc">RECEPCIONES</figcaption>
+            </figure>
+            <figure class="categoria__imagen">
+                <img class="categoria__img lazyload" id="imagen__13" data-src="public/imagenes/minimarket.webp" alt="">
+                <figcaption class="categoria__desc">RESTOBAR</figcaption>
+            </figure>                
            
+            <figure class="categoria__imagen">
+                <img class="categoria__img lazyload" id="imagen__11" data-src="public/imagenes/panaderia y pasteleria_c.webp" alt="">
+                <figcaption class="categoria__desc">SALON BELLEZA Y BARBERÍA</figcaption>
+            </figure>
+            <figure class="categoria__imagen">
+                <img class="categoria__img lazyload" id="imagen__12" data-src="public/imagenes/cafeteria y jugueria_c.webp" alt="">
+                <figcaption class="categoria__desc">TERRAZA</figcaption>
+            </figure>
+            <figure class="categoria__imagen">
+                <img class="categoria__img lazyload" id="imagen__13" data-src="public/imagenes/minimarket.webp" alt="">
+                <figcaption class="categoria__desc">TIENDA DE ROPAS</figcaption>
+            </figure>                
+
+            <figure class="categoria__imagen">
+                <img class="categoria__img lazyload" id="imagen__11" data-src="public/imagenes/panaderia y pasteleria_c.webp" alt="">
+                <figcaption class="categoria__desc">VETERINARIA</figcaption>
+            </figure>
+            <figure class="categoria__imagen">
+                <img class="categoria__img lazyload" id="imagen__12" data-src="public/imagenes/cafeteria y jugueria_c.webp" alt="">
+                <figcaption class="categoria__desc">DEPARTAMENTO</figcaption>
+            </figure>
+            
+          <!--Fin Nuevas Categorias-->
 
         </div>
     </div>
