@@ -23,40 +23,40 @@
 
             <figure class="categoria1__imagen derecha">
                 <a href="restaurante.php">
-                <img class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/restaurante.webp" alt="">
+                <img loading="lazy" class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/restaurante.webp" alt="">
             </a>
                 <figcaption class="categoria1__desc">RESTAURANTE</figcaption>
             </figure>
 
             <figure class="categoria1__imagen">
                 <a href="cevicheria.php">
-                <img class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/cevicheria.webp" alt=""></a>
+                <img loading="lazy" class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/cevicheria.webp" alt=""></a>
                 <figcaption class="categoria1__desc">CEVICHERÍA</figcaption>
             </figure>
 
 
             <figure class="categoria1__imagen derecha">
                 <a href="sangucheria.php">
-                <img class="categoria1__img" id="imagen_2" src="../public/imagenes/categoria/sangucheria.webp" alt=""></a>
+                <img loading="lazy" class="categoria1__img" id="imagen_2" src="../public/imagenes/categoria/sangucheria.webp" alt=""></a>
                 <figcaption class="categoria1__desc">SANGUCHERÍA</figcaption>
             </figure>
 
             <figure class="categoria1__imagen">
                 <a href="fast__food.php">
-                <img class="categoria1__img" id="imagen_7" src="../public/imagenes/categoria/fast food.webp" alt=""></a>
+                <img loading="lazy" class="categoria1__img" id="imagen_7" src="../public/imagenes/categoria/fast food.webp" alt=""></a>
                 <figcaption class="categoria1__desc">FAST FOOD</figcaption>
             </figure>
 
 
             <figure class="categoria1__imagen derecha">
                 <a href="polleria.php">
-                <img class="categoria1__img" id="imagen_4" src="../public/imagenes/categoria/polleria.webp" alt=""></a>
+                <img loading="lazy" class="categoria1__img" id="imagen_4" src="../public/imagenes/categoria/polleria.webp" alt=""></a>
                 <figcaption class="categoria1__desc">POLLERÍA</figcaption>
             </figure>
 
             <figure class="categoria1__imagen">
                 <a href="discoteca.php">
-                <img class="categoria1__img" id="imagen_3" src="../public/imagenes/categoria/discoteca.webp" alt="">
+                <img loading="lazy" class="categoria1__img" id="imagen_3" src="../public/imagenes/categoria/discoteca.webp" alt="">
                 </a>
                 <figcaption class="categoria1__desc">DISCOTECA</figcaption>
             </figure>
@@ -64,130 +64,130 @@
 
             <figure class="categoria1__imagen derecha">
                 <a href="pizzeria.php">
-                <img class="categoria1__img" id="imagen_10" src="../public/imagenes/categoria/pizzeria.webp" alt=""></a>
+                <img loading="lazy" class="categoria1__img" id="imagen_10" src="../public/imagenes/categoria/pizzeria.webp" alt=""></a>
                 <figcaption class="categoria1__desc">PIZZERÍA</figcaption>
             </figure>
 
             <figure class="categoria1__imagen">
                 <a href="cafeteria.php">
-                <img class="categoria1__img" id="imagen_6" src="../public/imagenes/categoria/cafeteria.webp" alt=""></a>
+                <img loading="lazy" class="categoria1__img" id="imagen_6" src="../public/imagenes/categoria/cafeteria.webp" alt=""></a>
                 <figcaption class="categoria1__desc">CAFETERÍA Y JUGUERIA</figcaption>
             </figure>
 
 
             <figure class="categoria1__imagen derecha">
                 <a href="panaderia.php">
-                <img class="categoria1__img" id="imagen_9" src="../public/imagenes/categoria/panaderia.webp" alt=""></a>
+                <img loading="lazy" class="categoria1__img" id="imagen_9" src="../public/imagenes/categoria/panaderia.webp" alt=""></a>
                 <figcaption class="categoria1__desc">PANADERÍA Y PASTELERÍA</figcaption>
             </figure>
 
             <figure class="categoria1__imagen">
                 <a href="spa.php">
-                <img class="categoria1__img" id="imagen_8" src="../public/imagenes/categoria/salon y spa.webp" alt=""></a>
+                <img loading="lazy" class="categoria1__img" id="imagen_8" src="../public/imagenes/categoria/salon y spa.webp" alt=""></a>
                 <figcaption class="categoria1__desc">SALON SPA Y BARBERÍA</figcaption>
             </figure>
 
 
             <figure class="categoria1__imagen derecha">
                 <a href="bar.php">
-                <img class="categoria1__img" id="imagen_9" src="../public/imagenes/categoria/bar.webp" alt=""></a>
+                <img loading="lazy" class="categoria1__img" id="imagen_9" src="../public/imagenes/categoria/bar.webp" alt=""></a>
                 <figcaption class="categoria1__desc">BAR</figcaption>
             </figure>
 
             <figure class="categoria1__imagen">
                 <a href="hogar.php">
-                <img class="categoria1__img" id="imagen_8" src="../public/imagenes/categoria/hogar.webp" alt=""></a>
+                <img loading="lazy" class="categoria1__img" id="imagen_8" src="../public/imagenes/categoria/hogar.webp" alt=""></a>
                 <figcaption class="categoria1__desc">HOGAR</figcaption>
             </figure>
 
 
             <figure class="categoria1__imagen derecha">
                 <a href="minimarket.php">
-                <img class="categoria1__img" id="imagen_9" src="../public/imagenes/categoria/minimarket.webp" alt=""></a>
+                <img loading="lazy" class="categoria1__img" id="imagen_9" src="../public/imagenes/categoria/minimarket.webp" alt=""></a>
                 <figcaption class="categoria1__desc">MINIMARKET</figcaption>
             </figure>
 
             <figure class="categoria1__imagen">
                 <a href="dental.php">
-                <img class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/dental.webp" alt=""></a>
+                <img loading="lazy" class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/dental.webp" alt=""></a>
                 <figcaption class="categoria1__desc">CLINICA DENTAL</figcaption>
             </figure>
 
             
             <figure class="categoria1__imagen derecha">
                 <a href="departamento.php">
-                <img class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/departamento.webp" alt=""></a>
+                <img loading="lazy" class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/departamento.webp" alt=""></a>
                 <figcaption class="categoria1__desc">DEPARTAMENTO</figcaption>
             </figure>
 
             <figure class="categoria1__imagen">
                 <a href="dormitorio.php">
-                <img class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/dormitorio.webp" alt=""></a>
+                <img loading="lazy" class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/dormitorio.webp" alt=""></a>
                 <figcaption class="categoria1__desc">DORMITORIO PARA NIÑOS</figcaption>
             </figure>
 
             
             <figure class="categoria1__imagen derecha">
                 <a href="industrial.php">
-                <img class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/industrial.webp" alt=""></a>
+                <img loading="lazy" class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/industrial.webp" alt=""></a>
                 <figcaption class="categoria1__desc">ESTILO INDUSTRIAL</figcaption>
             </figure>
 
             <figure class="categoria1__imagen">
                 <a href="soda.php">
-                <img class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/soda.webp" alt=""></a>
+                <img loading="lazy" class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/soda.webp" alt=""></a>
                 <figcaption class="categoria1__desc">FUENTE DE SODA</figcaption>
             </figure>
 
             
             <figure class="categoria1__imagen derecha">
                 <a href="gimnasio.php">
-                <img class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/gimnasio.webp" alt=""></a>
+                <img loading="lazy" class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/gimnasio.webp" alt=""></a>
                 <figcaption class="categoria1__desc">GIMNASIO</figcaption>
             </figure>
 
             <figure class="categoria1__imagen">
                 <a href="hoteles.php">
-                <img class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/hoteles.webp" alt=""></a>
+                <img loading="lazy" class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/hoteles.webp" alt=""></a>
                 <figcaption class="categoria1__desc">HOTELES</figcaption>
             </figure>
 
             
             <figure class="categoria1__imagen derecha">
                 <a href="recepciones.php">
-                <img class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/recepciones.webp" alt=""></a>
+                <img loading="lazy" class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/recepciones.webp" alt=""></a>
                 <figcaption class="categoria1__desc">RECEPCIONES</figcaption>
             </figure>
 
             <figure class="categoria1__imagen">
                 <a href="restobar.php">
-                <img class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/restobar.webp" alt=""></a>
+                <img loading="lazy" class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/restobar.webp" alt=""></a>
                 <figcaption class="categoria1__desc">RESTOBAR</figcaption>
             </figure>
 
             
             <figure class="categoria1__imagen derecha">
                 <a href="belleza.php">
-                <img class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/belleza.webp" alt=""></a>
+                <img loading="lazy" class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/belleza.webp" alt=""></a>
                 <figcaption class="categoria1__desc">SALÓN BELLEZA Y BARBERIA</figcaption>
             </figure>
 
             <figure class="categoria1__imagen">
                 <a href="terraza.php">
-                <img class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/terraza.webp" alt=""></a>
+                <img loading="lazy" class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/terraza.webp" alt=""></a>
                 <figcaption class="categoria1__desc">TERRAZA</figcaption>
             </figure>
 
             
             <figure class="categoria1__imagen derecha">
                 <a href="ropa.php">
-                <img class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/ropa.webp" alt=""></a>
+                <img loading="lazy" class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/ropa.webp" alt=""></a>
                 <figcaption class="categoria1__desc">ROPA</figcaption>
             </figure>
 
             <figure class="categoria1__imagen">
                 <a href="veterinaria.php">
-                <img class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/veterinaria.webp" alt=""></a>
+                <img loading="lazy" class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/veterinaria.webp" alt=""></a>
                 <figcaption class="categoria1__desc">VETERINARIA</figcaption>
             </figure>
     </main>
