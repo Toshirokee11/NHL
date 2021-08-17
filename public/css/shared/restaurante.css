@@ -11,6 +11,11 @@
     margin: 2rem auto;
     text-align: center;
 }
+@media screen and (max-width:768px){
+    .categoria1__titulo{
+        margin-top: 7rem;
+    }
+}
 .overlay {
     position: relative;
 }
@@ -127,7 +132,7 @@
     margin-left: 0;
 }
 @media screen and (min-width:1280px){
-.t{margin-left: 98px;}
+    .t{margin-left: 98px;}
     .telefono{
         margin-top: 3rem;
         width: 85%;
@@ -146,100 +151,100 @@
     .empresa{
         margin-bottom: 3rem;
     }
-.subtitulo{
-    font-size: 1.5rem;
-    margin-left: 10px;
-    margin-top: 2rem;
-}
-.overlay__input{
-    width: 70%;
-    height: 50px;
-}
-.cor{
-    display: initial;
-}
-.catalogo{
-    width: 20%;
-    padding: 1rem;
-}
-.overlay__label{
-    font-size: 18px;
-}
-.cotizar{
-    margin-top: 2rem;
-    width: 20%;
-    padding: 1rem;
-    margin-bottom: 5rem;
-}
-
-.overlay__submit{
-    width: 60%;
-}
-
-.e{
-    margin-left: 10px;
-}
-
-.c{
-    margin-left: 100px;
-}
-
-.overlay__formulario{
-    background-color: rgb(145, 183, 192);
-    position: fixed;
-    top: 100px;
-    height: 75%;
-    width: 50%;
-    left: 30%;
-}
-
-
-
-
-}
-
-
-    .overlay__item{
-        position: absolute;
+    .subtitulo{
+        font-size: 1.5rem;
+        margin-left: 10px;
+        margin-top: 2rem;
+    }
+    .overlay__input{
+        width: 70%;
+        height: 50px;
+    }
+    .cor{
+        display: initial;
+    }
+    .catalogo{
+        width: 20%;
+        padding: 1rem;
+    }
+    .overlay__label{
+        font-size: 18px;
+    }
+    .cotizar{
+        margin-top: 2rem;
+        width: 20%;
+        padding: 1rem;
+        margin-bottom: 5rem;
     }
 
-    .overlay__img{
-        position: absolute;
-        width: 100%;
-        height: 100%;
+    .overlay__submit{
+        width: 60%;
     }
 
-    .right {
-        top: 90%;
-        right: 50px;
-        color: red;
-        z-index: 2;
+    .e{
+        margin-left: 10px;
     }
+
+    .c{
+        margin-left: 100px;
+    }
+
+    .overlay__formulario{
+        background-color: rgb(145, 183, 192);
+        position: fixed;
+        top: 100px;
+        height: 75%;
+        width: 50%;
+        left: 30%;
+    }
+
+
+
+
+}
+
+
+.overlay__item{
+    position: absolute;
+}
+
+.overlay__img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.right {
+    top: 90%;
+    right: 50px;
+    color: red;
+    z-index: 2;
+}
     
-    .left {
-        font-weight: bold;
-        top: 90%;
-        right: 90px;
-        color: black;
-        z-index: 3;
-    }
+.left {
+    font-weight: bold;
+    top: 90%;
+    right: 90px;
+    color: black;
+    z-index: 3;
+}
     
-    .imagen1:not(.a){
-        opacity: 0;
-        display: block;
-        transition: opacity .6s linear;
-    }
+.imagen1:not(.a){
+    opacity: 0;
+    display: block;
+    transition: opacity .6s linear;
+}
 
-    .aparece{
-        opacity: 1;
-    }
-    .desaparece{
-        opacity: 0;
-    }
+.aparece{
+    opacity: 1;
+}
+.desaparece{
+    opacity: 0;
+}
 
 
-    .far{
-        color: white;
-    }
+.far{
+    color: white;
+}
 
     

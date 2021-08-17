@@ -24,7 +24,11 @@ figure {
     text-align: center;
    
 }
-
+@media screen and (max-width:768px){
+    .categoria1__titulo{
+        margin-top: 7rem;
+    }
+}
 
 .categoria1__imagen {
     position: relative;
