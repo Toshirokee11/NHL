@@ -69,11 +69,11 @@
 <?php require_once "../layout/foother.php" ?>
 
 
-<script defer type="text/javascript" src="../../public/js/modal.js"></script>
+<script defer type="text/javascript" src="../../../public/js/modal.js"></script>
 <script defer>
     // 360 viewer
     var PSV = new PhotoSphereViewer({
-        panorama: '../public/imagenes/Imagenes 360/BAR/2.webp',
+        panorama: '../../public/imagenes/Imagenes 360/BAR/2.webp',
         container: 'photosphere',
         navbar: 'fullscreen',
         default_fov: 65,
