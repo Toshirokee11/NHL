@@ -6,24 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neon House Led-Servicios</title>
 
-    <?php require_once "layout/links.php" ?>
+    <?php require_once "../layout/links.php" ?>
 
 </head>
 
 <body>
-<?php require_once "layout/header.php" ?>
+<?php require_once "../layout/header.php" ?>
 
     <main class="main__categoria">
-        <h2 class="categoria1__titulo ">DISCOTECA</h2>
-
-        <?php require_once "layout/modal.php" ?>
+        <h2 class="categoria1__titulo ">SANGUCHERÍA</h2>
+        
+        <?php require_once "../layout/modal.php" ?> 
 
         <div id="slider">
             <figure>
-                <img loading="lazy" src="../public/imagenes/Slider/DISCOTECA/1.webp" alt="">
-                <img loading="lazy" src="../public/imagenes/Slider/DISCOTECA/2.webp" alt="">
-                <img loading="lazy" src="../public/imagenes/Slider/DISCOTECA/3.webp" alt="">
-                <img loading="lazy" src="../public/imagenes/Slider/DISCOTECA/4.webp" alt="">
+                <img loading="lazy" src="../../public/imagenes/Slider/SANGUCHERIA/1.webp" alt="">
+                <img loading="lazy" src="../../public/imagenes/Slider/SANGUCHERIA/2.webp" alt="">
+                <img loading="lazy" src="../../public/imagenes/Slider/SANGUCHERIA/3.webp" alt="">
+                <img loading="lazy" src="../../public/imagenes/Slider/SANGUCHERIA/4.webp" alt="">
             </figure>
         </div>
 
@@ -55,9 +55,9 @@
                     <input type="text" id="tel" class="overlay__input t" pattern="[0-9]{9}" title="debe conter numeros"
                         required>
                 </div>
-                <input type="hidden" id="nomcategory" class="hiden" value="discoteca">
-                <input type="hidden" id="url" class="hiden" value="https://www.flipsnack.com/nhlweb/discoteca-catalogo-con-textos.html">
-                <input type="submit" class="overlay__submit" value="Obtener mi catálogo de categoría discoteca">
+                <input type="hidden" id="nomcategory" class="hiden" value="sangucheria">
+                <input type="hidden" id="url" class="hiden" value="https://www.flipsnack.com/898DCEEEFB5/sangucher-a-catalogo-con-textos-actualizados-nhl.html">
+                <input type="submit" class="overlay__submit" value="Obtener mi catálogo de categoría sanguchería">
 
             </form>
 
@@ -65,21 +65,19 @@
 
 
     </main>
- 
-<?php require_once "layout/foother.php" ?>
-
-<script defer type="text/javascript" src="../public/js/modal.js"></script>
-<script defer>
+    <?php require_once "../layout/foother.php" ?>
+    
+    <script defer type="text/javascript" src="../public/js/modal.js"></script>
+    <script defer>
     // 360 viewer
     var PSV = new PhotoSphereViewer({
-        panorama: '../public/imagenes/Imagenes 360/DISCOTECA/1.webp',
+        panorama: '../public/imagenes/Imagenes 360/SANGUCHERIA/1.webp',
         container: 'photosphere',
         navbar: 'fullscreen',
         default_fov: 65,
         mousewheel: false,
     });
     </script>
-
 
 </body>
 

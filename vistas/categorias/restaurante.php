@@ -6,26 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neon House Led-Servicios</title>
 
-    <?php require_once "layout/links.php" ?>
+    <?php require_once "../layout/links.php" ?>
 
 
 </head>
 
 <body>
-    <?php require_once "layout/header.php" ?>
+    <?php require_once "../layout/header.php" ?>
 
 
     <main class="main__categoria">
         <h2 class="categoria1__titulo ">RESTAURANTE</h2>
       
-        <?php require_once "layout/modal.php" ?>
+        <?php require_once "../layout/modal.php" ?>
 
         <div id="slider">
             <figure>
-                <img loading="lazy" src="../public/imagenes/Slider/RESTAURANTE/1.webp" alt="">
-                <img loading="lazy" src="../public/imagenes/Slider/RESTAURANTE/2.webp" alt="">
-                <img loading="lazy" src="../public/imagenes/Slider/RESTAURANTE/3.webp" alt="">
-                <img loading="lazy" src="../public/imagenes/Slider/RESTAURANTE/4.webp" alt="">
+                <img loading="lazy" src="../../public/imagenes/Slider/RESTAURANTE/1.webp" alt="">
+                <img loading="lazy" src="../../public/imagenes/Slider/RESTAURANTE/2.webp" alt="">
+                <img loading="lazy" src="../../public/imagenes/Slider/RESTAURANTE/3.webp" alt="">
+                <img loading="lazy" src="../../public/imagenes/Slider/RESTAURANTE/4.webp" alt="">
             </figure>
         </div>
     
@@ -70,7 +70,7 @@
             
 
     </main>
-    <?php require_once "layout/foother.php" ?>
+    <?php require_once "../layout/foother.php" ?>
     
     <script defer type="text/javascript" src="../public/js/modal.js"></script>
     <script defer>

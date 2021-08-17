@@ -6,24 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neon House Led-Servicios</title>
 
-    <?php require_once "layout/links.php" ?>
+    <?php require_once "../layout/links.php" ?>
 
 </head>
 
 <body>
-<?php require_once "layout/header.php" ?>
+<?php require_once "../layout/header.php" ?>
 
     <main class="main__categoria">
-        <h2 class="categoria1__titulo ">PANADERÍA Y PASTELERÍA</h2>
+        <h2 class="categoria1__titulo ">MINIMARKET</h2>
 
-        <?php require_once "layout/modal.php" ?>
+        <?php require_once "../layout/modal.php" ?>
 
         <div id="slider">
             <figure>
-                <img loading="lazy" src="../public/imagenes/Slider/PANADERIA Y PASTELERIA/1.webp" alt="">
-                <img loading="lazy" src="../public/imagenes/Slider/PANADERIA Y PASTELERIA/2.webp" alt="">
-                <img loading="lazy" src="../public/imagenes/Slider/PANADERIA Y PASTELERIA/3.webp" alt="">
-                <img loading="lazy" src="../public/imagenes/Slider/PANADERIA Y PASTELERIA/4.webp" alt="">
+                <img loading="lazy" src="../../public/imagenes/Slider/MINIMARKET/1.webp" alt="">
+                <img loading="lazy" src="../../public/imagenes/Slider/MINIMARKET/2.webp" alt="">
+                <img loading="lazy" src="../../public/imagenes/Slider/MINIMARKET/3.webp" alt="">
+                <img loading="lazy" src="../../public/imagenes/Slider/MINIMARKET/4.webp" alt="">
             </figure>
         </div>
 
@@ -55,9 +55,9 @@
                     <input type="text" id="tel" class="overlay__input t" pattern="[0-9]{9}" title="debe conter numeros"
                         required>
                 </div>
-                <input type="hidden" id="nomcategory" class="hiden" value="panaderia">
-                <input type="hidden" id="url" class="hiden" value="https://www.flipsnack.com/7DE97999E8C/panader-a-y-pasteler-a-catalogo-con-textos.html">
-                <input type="submit" class="overlay__submit" value="Obtener mi catálogo de categoría panadería ">
+                <input type="hidden" id="nomcategory" class="hiden" value="pizzeria">
+                <input type="hidden" id="url" class="hiden" value="https://www.flipsnack.com/F9FECEDD75E/minimarket-cat-logo_compressed.html">
+                <input type="submit" class="overlay__submit" value="Obtener mi catálogo de Minimarket">
 
             </form>
 
@@ -66,20 +66,19 @@
 
     </main>
 
-<?php require_once "layout/foother.php" ?>
-
-<script defer type="text/javascript" src="../public/js/modal.js"></script>
-<script defer>
+    <?php require_once "../layout/foother.php" ?>
+    
+    <script defer type="text/javascript" src="../public/js/modal.js"></script>
+    <script defer>
     // 360 viewer
     var PSV = new PhotoSphereViewer({
-        panorama: '../public/imagenes/Imagenes 360/PANADERIA Y PASTELERIA/1.webp',
+        panorama: '../public/imagenes/Imagenes 360/MINIMARKET/1.webp',
         container: 'photosphere',
         navbar: 'fullscreen',
         default_fov: 65,
         mousewheel: false,
     });
-</script>
-
+    </script>
 
 </body>
 
