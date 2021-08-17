@@ -20,10 +20,10 @@
 
         <div id="slider">
             <figure>
-                <img loading="lazy" src="../public/imagenes/Slider/HOGAR/1.webp" alt="">
-                <img loading="lazy" src="../public/imagenes/Slider/HOGAR/2.webp" alt="">
-                <img loading="lazy" src="../public/imagenes/Slider/HOGAR/3.webp" alt="">
-                <img loading="lazy" src="../public/imagenes/Slider/HOGAR/4.webp" alt="">
+                <img loading="lazy" src="../../public/imagenes/Slider/HOGAR/1.webp" alt="">
+                <img loading="lazy" src="../../public/imagenes/Slider/HOGAR/2.webp" alt="">
+                <img loading="lazy" src="../../public/imagenes/Slider/HOGAR/3.webp" alt="">
+                <img loading="lazy" src="../../public/imagenes/Slider/HOGAR/4.webp" alt="">
             </figure>
         </div>
 
