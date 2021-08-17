@@ -10,6 +10,7 @@
 }
 #slider figure img{
     width: 25%;
+    height: 500px;
     float: left;
 }
 @keyframes slider{
