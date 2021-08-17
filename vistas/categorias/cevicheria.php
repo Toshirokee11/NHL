@@ -6,26 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neon House Led-Servicios</title>
 
-    <?php require_once "layout/links.php" ?>
-
+    <?php require_once "../layout/links.php" ?>
+    
 
 </head>
 
 <body>
-    <?php require_once "layout/header.php" ?>
-
+<?php require_once "../layout/header.php" ?>
 
     <main class="main__categoria">
-        <h2 class="categoria1__titulo ">RESTAURANTE</h2>
-      
-        <?php require_once "layout/modal.php" ?>
+        <h2 class="categoria1__titulo ">CEVICHERÍA</h2>
+
+        <?php require_once "../layout/modal.php" ?>
 
         <div id="slider">
             <figure>
-                <img loading="lazy" src="../public/imagenes/Slider/RESTAURANTE/1.webp" alt="">
-                <img loading="lazy" src="../public/imagenes/Slider/RESTAURANTE/2.webp" alt="">
-                <img loading="lazy" src="../public/imagenes/Slider/RESTAURANTE/3.webp" alt="">
-                <img loading="lazy" src="../public/imagenes/Slider/RESTAURANTE/4.webp" alt="">
+                <img loading="lazy" src="../public/imagenes/Slider/CEVICHERIA/1.webp" alt="">
+                <img loading="lazy" src="../public/imagenes/Slider/CEVICHERIA/2.webp" alt="">
+                <img loading="lazy" src="../public/imagenes/Slider/CEVICHERIA/3.webp" alt="">
+                <img loading="lazy" src="../public/imagenes/Slider/CEVICHERIA/4.webp" alt="">
             </figure>
         </div>
     
@@ -59,24 +58,26 @@
 <label for="tel" class="overlay__label te">Celular:</label>
 <input type="text" id="tel" class="overlay__input t" pattern="[0-9]{9}" title="debe conter numeros" required>
 </div>
-<input type="hidden" id="nomcategory" class="hiden" value="Restaurante">
-<input type="hidden" id="url" class="hiden" value="https://www.flipsnack.com/898DCEEEFB5/restaurante-catalogo-texto-completo-actualizado-nhl.html">
-<input type="submit" class="overlay__submit" value="Obtener mi catálogo de categoría restaurante ">
+<input type="hidden" id="nomcategory" class="hiden" value="cevicheria">
+<input type="hidden" id="url" class="hiden" value="https://www.flipsnack.com/alonsoddt/cevicheri-a-catalogo-con-textos.html">
+<input type="submit" class="overlay__submit" value="Obtener mi catálogo de categoría cevichería">
 
 </form>
 
+
         </div>
             
-            
+        
 
     </main>
-    <?php require_once "layout/foother.php" ?>
+
+    <?php require_once "../layout/foother.php" ?>
     
     <script defer type="text/javascript" src="../public/js/modal.js"></script>
     <script defer>
     // 360 viewer
     var PSV = new PhotoSphereViewer({
-        panorama: '../public/imagenes/Imagenes 360/RESTAURANTE/1.webp',
+        panorama: '../public/imagenes/Imagenes 360/CEVICHERIA/1.webp',
         container: 'photosphere',
         navbar: 'fullscreen',
         default_fov: 65,

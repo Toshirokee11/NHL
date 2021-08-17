@@ -6,24 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neon House Led-Servicios</title>
 
-    <?php require_once "layout/links.php" ?>
+    <?php require_once "../layout/links.php" ?>
 
 </head>
 
 <body>
-<?php require_once "layout/header.php" ?>
+<?php require_once "../layout/header.php" ?>
 
     <main class="main__categoria">
-        <h2 class="categoria1__titulo ">POLLERÍA</h2>
+        <h2 class="categoria1__titulo ">PIZZERIA</h2>
 
-        <?php require_once "layout/modal.php" ?>
+        <?php require_once "../layout/modal.php" ?>
 
         <div id="slider">
             <figure>
-                <img loading="lazy" src="../public/imagenes/Slider/POLLERIA/1.webp" alt="">
-                <img loading="lazy" src="../public/imagenes/Slider/POLLERIA/2.webp" alt="">
-                <img loading="lazy" src="../public/imagenes/Slider/POLLERIA/3.webp" alt="">
-                <img loading="lazy" src="../public/imagenes/Slider/POLLERIA/4.webp" alt="">
+                <img loading="lazy" src="../public/imagenes/Slider/PIZZERIA/1.webp" alt="">
+                <img loading="lazy" src="../public/imagenes/Slider/PIZZERIA/2.webp" alt="">
+                <img loading="lazy" src="../public/imagenes/Slider/PIZZERIA/3.webp" alt="">
+                <img loading="lazy" src="../public/imagenes/Slider/PIZZERIA/4.webp" alt="">
             </figure>
         </div>
 
@@ -55,9 +55,9 @@
                     <input type="text" id="tel" class="overlay__input t" pattern="[0-9]{9}" title="debe conter numeros"
                         required>
                 </div>
-                <input type="hidden" id="nomcategory" class="hiden" value="polleria">
-                <input type="hidden" id="url" class="hiden" value="https://www.flipsnack.com/ventasnhlone/polleria-catalogo-con-textos-actualizados-nhl-vufbli5tk5.html">
-                <input type="submit" class="overlay__submit" value="Obtener mi catálogo de categoría pollería">
+                <input type="hidden" id="nomcategory" class="hiden" value="pizzeria">
+                <input type="hidden" id="url" class="hiden" value="https://www.flipsnack.com/ventasnhlone/pizzeria-catalogo-con-textos-actualizados-nhl.html">
+                <input type="submit" class="overlay__submit" value="Obtener mi catálogo de categoría pizzería">
 
             </form>
 
@@ -65,13 +65,14 @@
 
 
     </main>
-    <?php require_once "layout/foother.php" ?>
+
+    <?php require_once "../layout/foother.php" ?>
     
     <script defer type="text/javascript" src="../public/js/modal.js"></script>
     <script defer>
     // 360 viewer
     var PSV = new PhotoSphereViewer({
-        panorama: '../public/imagenes/Imagenes 360/POLLERIA/1.webp',
+        panorama: '../public/imagenes/Imagenes 360/PIZZERIA/1.webp',
         container: 'photosphere',
         navbar: 'fullscreen',
         default_fov: 65,

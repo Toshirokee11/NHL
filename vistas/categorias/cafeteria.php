@@ -6,24 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neon House Led-Servicios</title>
 
-    <?php require_once "layout/links.php" ?>
+    <?php require_once "../layout/links.php" ?>
 
 </head>
 
 <body>
-<?php require_once "layout/header.php" ?>
+<?php require_once "../layout/header.php" ?>
 
     <main class="main__categoria">
-        <h2 class="categoria1__titulo ">BAR</h2>
+        <h2 class="categoria1__titulo ">CAFETERÍA Y JUGUERÍA</h2>
 
-        <?php require_once "layout/modal.php" ?>
+        <?php require_once "../layout/modal.php" ?>
 
         <div id="slider">
             <figure>
-                <img loading="lazy" src="../public/imagenes/Slider/BAR/1.webp" alt="">
-                <img loading="lazy" src="../public/imagenes/Slider/BAR/2.webp" alt="">
-                <img loading="lazy" src="../public/imagenes/Slider/BAR/3.webp" alt="">
-                <img loading="lazy" src="../public/imagenes/Slider/BAR/4.webp" alt="">
+                <img loading="lazy" src="../public/imagenes/Slider/CAFETERIA Y JUGUERIA/1.webp" alt="">
+                <img loading="lazy" src="../public/imagenes/Slider/CAFETERIA Y JUGUERIA/2.webp" alt="">
+                <img loading="lazy" src="../public/imagenes/Slider/CAFETERIA Y JUGUERIA/3.webp" alt="">
+                <img loading="lazy" src="../public/imagenes/Slider/CAFETERIA Y JUGUERIA/4.webp" alt="">
             </figure>
         </div>
 
@@ -55,9 +55,9 @@
                     <input type="text" id="tel" class="overlay__input t" pattern="[0-9]{9}" title="debe conter numeros"
                         required>
                 </div>
-                <input type="hidden" id="nomcategory" class="hiden" value="bar">
-                <input type="hidden" id="url" class="hiden" value="https://www.flipsnack.com/alonsoddt/bar-catalogo-con-textos-vh9y9kprzp.html">
-                <input type="submit" class="overlay__submit" value="Obtener mi catálogo de categoría Bar">
+                <input type="hidden" id="nomcategory" class="hiden" value="cafeteria">
+                <input type="hidden" id="url" class="hiden" value="https://www.flipsnack.com/alonsoddt/cafeteria-y-jugueri-a.html">
+                <input type="submit" class="overlay__submit extra" value="Obtener mi catálogo de categoría cafetería y juguería">
 
             </form>
 
@@ -66,20 +66,21 @@
 
     </main>
 
-<?php require_once "layout/foother.php" ?>
+<?php require_once "../layout/foother.php" ?>
 
 
 <script defer type="text/javascript" src="../public/js/modal.js"></script>
 <script defer>
     // 360 viewer
     var PSV = new PhotoSphereViewer({
-        panorama: '../public/imagenes/Imagenes 360/BAR/2.webp',
+        panorama: '../public/imagenes/Imagenes 360/CAFETERIA Y JUGUERIA/2.webp',
         container: 'photosphere',
         navbar: 'fullscreen',
         default_fov: 65,
         mousewheel: false,
     });
     </script>
+
 
 </body>
 

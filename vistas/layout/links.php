@@ -1,14 +1,14 @@
-    <link rel="shortcut icon" href="../ico.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../../ico.ico" type="image/x-icon">
     
-    <link rel="preload" href="../public/css/shared/header.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="../../public/css/shared/header.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     
-    <link rel="preload" href="../public/css/shared/footer.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="../../public/css/shared/footer.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
-    <link rel="preload" href="../public/css/shared/slider.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="../../public/css/shared/slider.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
-    <link rel="preload" href="../public/css/shared/modal.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="../../public/css/shared/modal.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
-    <link rel="preload" href="../public/css/shared/restaurante.css" as="style" onload="this.onload=null;this.rel='stylesheet'">   
+    <link rel="preload" href="../../public/css/shared/restaurante.css" as="style" onload="this.onload=null;this.rel='stylesheet'">   
 
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     
