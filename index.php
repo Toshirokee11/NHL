@@ -192,53 +192,61 @@
             <!--Nuevas categorias-->
             
             <figure class="categoria__imagen">
-                <img class="categoria__img lazyload" id="imagen__11" data-src="public/imagenes/panaderia y pasteleria_c.webp" alt="">
+                <img class="categoria__img lazyload" id="imagen__14" data-src="public/imagenes/categoria/dental.webp" alt="">
                 <figcaption class="categoria__desc">CLINICA DENTAL</figcaption>
             </figure>
             <figure class="categoria__imagen">
-                <img class="categoria__img lazyload" id="imagen__12" data-src="public/imagenes/cafeteria y jugueria_c.webp" alt="">
+                <img class="categoria__img lazyload" id="imagen__15" data-src="public/imagenes/categoria/departamento.webp" alt="">
+                <figcaption class="categoria__desc">DEPARTAMENTO</figcaption>
+            </figure>
+            <figure class="categoria__imagen">
+                <img class="categoria__img lazyload" id="imagen__16" data-src="public/imagenes/categoria/dormitorio.webp" alt="">
                 <figcaption class="categoria__desc">DORMITORIO PARA NIÑOS</figcaption>
             </figure>
             <figure class="categoria__imagen">
-                <img class="categoria__img lazyload" id="imagen__13" data-src="public/imagenes/minimarket.webp" alt="">
-                <figcaption class="categoria__desc">GIMNASIO</figcaption>
+                <img class="categoria__img lazyload" id="imagen__17" data-src="public/imagenes/categoria/industrial.webp" alt="">
+                <figcaption class="categoria__desc">ESTILO INDUSTRIAL</figcaption>
             </figure>                
             
             <figure class="categoria__imagen">
-                <img class="categoria__img lazyload" id="imagen__11" data-src="public/imagenes/panaderia y pasteleria_c.webp" alt="">
+                <img class="categoria__img lazyload" id="imagen__18" data-src="public/imagenes/categoria/soda.webp" alt="">
+                <figcaption class="categoria__desc">FUENTE DE SODA</figcaption>
+            </figure>
+            <figure class="categoria__imagen">
+                <img class="categoria__img lazyload" id="imagen__19" data-src="public/imagenes/categoria/gimnasio.webp" alt="">
+                <figcaption class="categoria__desc">GIMNASIO</figcaption>
+            </figure>
+            <figure class="categoria__imagen">
+                <img class="categoria__img lazyload" id="imagen__20" data-src="public/imagenes/categoria/hoteles.webp" alt="">
                 <figcaption class="categoria__desc">HOTELES</figcaption>
-            </figure>
-            <figure class="categoria__imagen">
-                <img class="categoria__img lazyload" id="imagen__12" data-src="public/imagenes/cafeteria y jugueria_c.webp" alt="">
-                <figcaption class="categoria__desc">RECEPCIONES</figcaption>
-            </figure>
-            <figure class="categoria__imagen">
-                <img class="categoria__img lazyload" id="imagen__13" data-src="public/imagenes/minimarket.webp" alt="">
-                <figcaption class="categoria__desc">RESTOBAR</figcaption>
             </figure>                
            
             <figure class="categoria__imagen">
-                <img class="categoria__img lazyload" id="imagen__11" data-src="public/imagenes/panaderia y pasteleria_c.webp" alt="">
-                <figcaption class="categoria__desc">SALON BELLEZA Y BARBERÍA</figcaption>
+                <img class="categoria__img lazyload" id="imagen__21" data-src="public/imagenes/categoria/recepciones.webp" alt="">
+                <figcaption class="categoria__desc">RECEPCIONES</figcaption>
             </figure>
             <figure class="categoria__imagen">
-                <img class="categoria__img lazyload" id="imagen__12" data-src="public/imagenes/cafeteria y jugueria_c.webp" alt="">
-                <figcaption class="categoria__desc">TERRAZA</figcaption>
+                <img class="categoria__img lazyload" id="imagen__22" data-src="public/imagenes/categoria/restobar.webp" alt="">
+                <figcaption class="categoria__desc">RESTOBAR</figcaption>
             </figure>
             <figure class="categoria__imagen">
-                <img class="categoria__img lazyload" id="imagen__13" data-src="public/imagenes/minimarket.webp" alt="">
-                <figcaption class="categoria__desc">TIENDA DE ROPAS</figcaption>
+                <img class="categoria__img lazyload" id="imagen__23" data-src="public/imagenes/categoria/belleza.webp" alt="">
+                <figcaption class="categoria__desc">SALON BELLEZA Y BARBERIA</figcaption>
             </figure>                
 
             <figure class="categoria__imagen">
-                <img class="categoria__img lazyload" id="imagen__11" data-src="public/imagenes/panaderia y pasteleria_c.webp" alt="">
-                <figcaption class="categoria__desc">VETERINARIA</figcaption>
+                <img class="categoria__img lazyload" id="imagen__24" data-src="public/imagenes/categoria/terraza.webp" alt="">
+                <figcaption class="categoria__desc">TERRAZA</figcaption>
             </figure>
             <figure class="categoria__imagen">
-                <img class="categoria__img lazyload" id="imagen__12" data-src="public/imagenes/cafeteria y jugueria_c.webp" alt="">
-                <figcaption class="categoria__desc">DEPARTAMENTO</figcaption>
+                <img class="categoria__img lazyload" id="imagen__25" data-src="public/imagenes/categoria/ropa.webp" alt="">
+                <figcaption class="categoria__desc">ROPA</figcaption>
             </figure>
-            
+            <figure class="categoria__imagen">
+                <img class="categoria__img lazyload" id="imagen__26" data-src="public/imagenes/categoria/veterinaria.webp" alt="">
+                <figcaption class="categoria__desc">VETERINARIA</figcaption>
+            </figure>
+
           <!--Fin Nuevas Categorias-->
 
         </div>
