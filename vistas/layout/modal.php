@@ -9,7 +9,7 @@
                         <p>Obtén un descuento exclusivo</p>
                     </div>
                     <div class="derecha">
-                        <form action="" method="POST">
+                        <form action="" method="POST" id="login"> 
                             <div class="datos">
                                 <input type="text" name="nombre" placeholder="Nombre" id="nombre">
                                 <input type="tel" name="telf" placeholder="Teléfono" id="telefono">
@@ -41,3 +41,41 @@
                 </div>
             </div>
         </div>
+
+        <script>
+           
+            $("#login").submit(function(e){
+                e.preventDefault();
+
+                if($('#nombre').val()== "" || $('#telefono').val() == "" || $('#correo').val() == "" ){
+                    alert("Asegurece de llenar todos los campos.");
+                }else{
+
+                    let nombre = $("#nombre").val();
+                    let telefono = $("#telefono").val();
+                    let correo = $("#correo").val();
+                    var data = {
+                        nombre:nombre,
+                        telefono:telefono,
+                        correo:correo,
+                        action:"autenticar"
+                    }
+
+                    $.ajax({
+                        type: "POST",
+                        url: "/controladores/prueba.php",
+                        data: data,
+                        success: function(data){
+                            if(data == "true"){
+                                alert("cookie agregada usuario");
+                                document.cookie = "user=true; max-age=3600; path=/";
+                                location.reload();
+                            }   
+                        }                
+                    })
+
+                }
+
+            });     
+
+        </script>
