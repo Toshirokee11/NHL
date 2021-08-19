@@ -39,6 +39,12 @@
 
         <div class="galeria-imagenes" id="restaurante-imagen"></div>
 
+        <?php
+            if(isset($_COOKIE["user"]))
+            {
+                echo "<center>Aqui se mostraran imagenes</center>";
+            }
+        ?>
 
 
         <div id="form_1" class="overlay__formulario">

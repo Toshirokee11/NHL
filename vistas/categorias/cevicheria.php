@@ -36,6 +36,14 @@
 
         <a href="contacto.php"><button class="cotizar">Cotizar</button></a>
 
+        
+        <?php
+            if(isset($_COOKIE["user"]))
+            {
+                echo "<center>Aqui se mostraran imagenes</center>";
+            }
+        ?>
+
         <div class="galeria-imagenes" id="cevicheria-imagen"></div>
 
 
