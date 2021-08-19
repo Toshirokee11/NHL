@@ -34,6 +34,8 @@
 
         <a href="contacto.php"><button class="cotizar">Cotizar</button></a>
 
+        <div class="galeria-imagenes" id="pizzeria-imagen"></div>
+
         <div id="form_1" class="overlay__formulario">
             <a href="#" id="x_1" class="overlay__x x">X</a>
             <form class="overlay__form" id="restaurante">
