@@ -16,14 +16,14 @@
 <?php require_once "layout/header.php" ?>
 
     <main class="main__categoria">
-        <h2 class="categoria1__titulo ">SERVICIOS</h2>
+        <h1 class="categoria1__titulo ">SERVICIOS</h1>
         <div class="categoria1__section">
 
 
 
             <figure class="categoria1__imagen derecha">
                 <a href="arquitectura.php">
-                <img class="categoria1__img" id="imagen_5" src="../public/imagenes/servicios/Arquitectura comercial.webp" alt="">
+                <img class="categoria1__img" id="imagen_5" src="../public/imagenes/servicios/Arquitectura comercial.webp" alt="Imagen del selvicio">
             </a>
                 <figcaption class="categoria1__desc">ARQUITECTURA COMERCIAL</figcaption>
             </figure>
@@ -31,32 +31,32 @@
 
             <figure class="categoria1__imagen">
                 <a href="decoracion.php">
-                <img class="categoria1__img" id="imagen_1" src="../public/imagenes/servicios/Decoracion y remodelacion.webp" alt=""></a>
+                <img class="categoria1__img" id="imagen_1" src="../public/imagenes/servicios/Decoracion y remodelacion.webp" alt="Imagen del selvicio"></a>
                 <figcaption class="categoria1__desc">DECORACIÓN Y REMODELACIÓN</figcaption>
             </figure>
 
             <figure class="categoria1__imagen derecha">
                 <a href="neon.php">
-                <img class="categoria1__img" id="imagen_2" src="../public/imagenes/servicios/Fabricacion Neon.webp" alt=""></a>
+                <img class="categoria1__img" id="imagen_2" src="../public/imagenes/servicios/Fabricacion Neon.webp" alt="Imagen del selvicio"></a>
                 <figcaption class="categoria1__desc">FABRICACIÓN NEON</figcaption>
             </figure>
 
             <figure class="categoria1__imagen">
                 <a href="mobiliaria.php">
-                <img class="categoria1__img" id="imagen_7" src="../public/imagenes/servicios/Fabricacion Mobiliaria.webp" alt=""></a>
+                <img class="categoria1__img" id="imagen_7" src="../public/imagenes/servicios/Fabricacion Mobiliaria.webp" alt="Imagen del selvicio"></a>
                 <figcaption class="categoria1__desc">FABRICACIÓN MOBILIARIA</figcaption>
             </figure>
 
             <figure class="categoria1__imagen derecha">
                 <a href="luminosos.php">
-                <img class="categoria1__img" id="imagen_4" src="../public/imagenes/servicios/Letreros Luminosos.webp" alt=""></a>
+                <img class="categoria1__img" id="imagen_4" src="../public/imagenes/servicios/Letreros Luminosos.webp" alt="Imagen del selvicio"></a>
                 <figcaption class="categoria1__desc">LETREROS LUMINOSOS</figcaption>
             </figure>
 
 
             <figure class="categoria1__imagen">
                 <a href="led.php">
-                <img class="categoria1__img" id="imagen_3" src="../public/imagenes/servicios/Paneles Led.webp" alt="">
+                <img class="categoria1__img" id="imagen_3" src="../public/imagenes/servicios/Paneles Led.webp" alt="Imagen del selvicio">
             </a>
                 <figcaption class="categoria1__desc">PANELES LED</figcaption>
             </figure>

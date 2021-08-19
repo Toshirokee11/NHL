@@ -33,7 +33,7 @@
         <div class="section">
 
             <div class="vision">
-                <h2 class="vision__titulo">VISIÓN</h2>
+                <h1 class="vision__titulo">VISIÓN</h1>
                 <figure class="vision__imagen">
                     <img class="vision__img" src="../public/imagenes/nosotros/mision.webp" alt="visión de la empresa">
                 </figure>
@@ -48,7 +48,7 @@
 
 
             <div class="mision">
-                <h2 class="mision__titulo">MISIÓN</h2>
+                <h1 class="mision__titulo">MISIÓN</h1>
                 <figure class="mision__imagen">
                     <img class="mision__img" src="../public/imagenes/nosotros/vision.webp" alt="visión de la empresa">
                 </figure>

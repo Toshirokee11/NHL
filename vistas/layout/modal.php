@@ -1,7 +1,7 @@
         <div class="modal" id="modal">
             <div class="contenedor activo">
                 <button class="cerrar" id="cerrar">X</button>
-                <h1>CONTENIDO EXCLUSIVO</h1>
+                <h1>No te lo pierdas, diseños exclusivos</h1>
                 <div class="contenido">
                     <div class="izquierda">
                         <p>¡LLENA EL FORMULARIO!</p>
@@ -15,14 +15,7 @@
                                 <input type="tel" name="telf" placeholder="Teléfono" id="telefono">
                             </div>
                             <input type="email" name="correo" placeholder="Email" id="correo"><br>
-                            <button type="submit" value="Enviar" id="btn-enviar">Enviar</button>
-                            <div class="logos">
-                                <a class="sociales__item" target="_blank" href="https://www.instagram.com/neon_led_store/"><i class="fab fa-instagram-square"></i></a>
-                                <a class="sociales__item" target="_blank" href="https://www.facebook.com/nhldecoracioncomercial"> <i class="fab fa-facebook"></i></a>
-                                <a class="sociales__item"  target="_blank" href="https://www.youtube.com/user/NEONHOUSELEDS"> <i class="fab fa-youtube"></i></a>
-                                <a class="sociales__item" target="_blank" href="https://twitter.com/NEONHOUSELEDS"><i class="fab fa-twitter-square"></i></a>
-                                <a class="sociales__item" target="_blank" href="https://www.linkedin.com/in/neonhouseled/"><i class="fab fa-invision"></i></a>
-                            </div>
+                            <button type="submit" value="Enviar" id="btn-enviar">Enviar para contenido único</button>
                         </form>
                     </div>
                 </div>

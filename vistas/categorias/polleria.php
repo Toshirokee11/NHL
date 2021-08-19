@@ -14,16 +14,16 @@
 <?php require_once "../layout/header.php" ?>
 
     <main class="main__categoria">
-        <h2 class="categoria1__titulo ">POLLERÍA</h2>
+        <h1 class="categoria1__titulo ">POLLERÍA</h1>
 
         <?php require_once "../layout/modal.php" ?>
 
         <div id="slider">
             <figure>
-                <img loading="lazy" src="../../public/imagenes/Slider/POLLERIA/1.webp" alt="">
-                <img loading="lazy" src="../../public/imagenes/Slider/POLLERIA/2.webp" alt="">
-                <img loading="lazy" src="../../public/imagenes/Slider/POLLERIA/3.webp" alt="">
-                <img loading="lazy" src="../../public/imagenes/Slider/POLLERIA/4.webp" alt="">
+                <img loading="lazy" src="../../public/imagenes/Slider/POLLERIA/1.webp" alt="Slider de la categoria">
+                <img loading="lazy" src="../../public/imagenes/Slider/POLLERIA/2.webp" alt="Slider de la categoria">
+                <img loading="lazy" src="../../public/imagenes/Slider/POLLERIA/3.webp" alt="Slider de la categoria">
+                <img loading="lazy" src="../../public/imagenes/Slider/POLLERIA/4.webp" alt="Slider de la categoria">
             </figure>
         </div>
 

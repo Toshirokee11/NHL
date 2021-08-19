@@ -14,17 +14,17 @@
 <body>
 <?php require_once "layout/header.php" ?>
     <section class="hero_container">
-        <h2 class="title-hero_container">Crea e Innova con nosotros <br> ¡Únete a nuestra gran familia!</h2>
+        <h1 class="title-hero_container">Crea e Innova con nosotros <br> ¡Únete a nuestra gran familia!</h1>
     </section>
     
     <section class="work_us">
-        <h2 class="work_us-title">Trabaja con nosotros</h2>
+        <h1 class="work_us-title">Trabaja con nosotros</h1>
         <div class="work_us-desc-container">
             <p class="work_us-desc">Se parte de NHL y desarrolla tus habilidades y competencias con nosotros, ofrecemos línea de carrera, buen clima laboral, además brindamos una capacitación constante a nuestros colaboradores. Postula y se parte de nuestra familia.</p>
         </div>
         <div class="work_us-contact-container">
             <!-- <figure class="img-work_us-container">
-                <img src="../public/imagenes/work_us/img-form.jpg" alt="">
+                <img src="../public/imagenes/work_us/img-form.jpg" alt="Imagen trabaja con nosotros">
             </figure> -->
             <div class="work_us-form-container">
                 <!-- Formulario -->

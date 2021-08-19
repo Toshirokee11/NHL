@@ -21,7 +21,7 @@
             <div class="pry-dest-video">
                 <figure class="video-container">
                         <a href="https://www.youtube.com/watch?v=eklZLdBx9WE&ab_channel=NEONHOUSELED" target="_blank">
-                            <img src="../public/imagenes/proyectos/video_pry.webp" alt="">
+                            <img src="../public/imagenes/proyectos/video_pry.webp" alt="Imagen del selvicio">
                         </a>
                 </figure>
             </div>
@@ -33,7 +33,7 @@
                 <article class="pry">
                     <figure class="img-container">
                         <a href="https://youtu.be/qU08CNcnQhA" target="_blank">
-                            <img src="../public/imagenes/proyectos/1.webp" alt="">
+                            <img src="../public/imagenes/proyectos/1.webp" alt="Imagen del selvicio">
                         </a>
                     </figure>
                     <p>Decoración e iluminación <br>
@@ -43,7 +43,7 @@
                 <article class="pry">
                     <figure class="img-container">
                         <a href="https://youtu.be/3QMkxPf7H3U" target="_blank">
-                            <img src="../public/imagenes/proyectos/2.webp" alt="">
+                            <img src="../public/imagenes/proyectos/2.webp" alt="Imagen del selvicio">
                         </a>
                     </figure>
                     <p>Decoración con pantallas <br>

@@ -2,7 +2,7 @@
     
     color: black;
     position: static;
-   
+    text-shadow: none;
 }
 .categoria1__imagen{
     overflow: initial;

@@ -3,7 +3,7 @@
     <header class="header">
         <figure class="logo-container">
             <a href="../../index.php">
-                <img src="../../public/imagenes/Neon_House_Logo.webp" alt="">
+                <img src="../../public/imagenes/Neon_House_Logo.webp" alt="Leono Neon House">
             </a>
         </figure>
         <nav class="menu">
@@ -58,6 +58,6 @@
         </div>
     </header>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <a href="https://api.whatsapp.com/send?phone=51936910425&text=¡Bienvenidos%20al%20WhatsApp%20de%20Neon%20House%20LED!" class="float" target="_blank">
+    <a href="https://api.whatsapp.com/send?phone=51936910425&text=¡Bienvenidos!%20Cuéntanos%20sobre%20tus%20proyectos%20para%20poder%20ayudarte" class="float" target="_blank">
         <i class="fa fa-whatsapp my-float"></i>
     </a>

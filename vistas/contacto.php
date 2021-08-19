@@ -17,7 +17,7 @@
     </section>
     
     <section class="contact">
-        <h2 class="contact-title">Contacto</h2>
+        <h1 class="contact-title">Contacto</h1>
         <div class="contact-contact-container">
             
             <div class="contact-description"> 
