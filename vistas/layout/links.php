@@ -14,17 +14,17 @@
     
     <link rel="preload" href="https://cdn.rawgit.com/mistic100/Photo-Sphere-Viewer/3.1.0/dist/photo-sphere-viewer.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
-    <script defer src="https://ajax.googleapis.com/ajax/libs/threejs/r70/three.min.js"> </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/threejs/r70/three.min.js"> </script>
 
-    <script defer src="https://cdn.rawgit.com/mistic100/Photo-Sphere-Viewer/3.1.0/dist/photo-sphere-viewer.min.js"> </script>
+    <script src="https://cdn.rawgit.com/mistic100/Photo-Sphere-Viewer/3.1.0/dist/photo-sphere-viewer.min.js"> </script>
 
     <style>
-        #photosphere { height:460px; width:100%; margin: 0 auto; }
+        #photosphere { height:410px; width:100%; margin: 0 auto; }
         @media (max-width:1024px){
-            #photosphere { height:310px; width:100%; margin: 0 auto; }
+            #photosphere { height:260px; width:100%; margin: 0 auto; }
         }
         @media (max-width:750px){
-            #photosphere { height:210px; width:100%; margin: 0 auto; }
+            #photosphere { height:160px; width:100%; margin: 0 auto; }
         }
         @media (max-height:720px){
             #photosphere { height:155px; width:100%; margin: 0 auto; }

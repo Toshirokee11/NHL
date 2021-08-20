@@ -21,7 +21,7 @@
                 </div>
             </div>
             <div class="contenedor inactivo">
-                <button id="cerrar"></button>
+                <button class="cerrar" id="cerrar2">X</button>
                 <div class="contenido">
                     <div class="izquierda">
                         <div id="photosphere"> </div>
