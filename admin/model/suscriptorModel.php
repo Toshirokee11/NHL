@@ -29,10 +29,10 @@ class Suscriptor{
         
     }
     
-    protected function SearchUsuario()
+    public function buscarCorreo()
     {
         $ic = new Conexion();
-        $sql = "SELECT * FROM users WHERE username='$this->username'";
+        $sql = "SELECT * FROM suscriptor WHERE correo='$this->correo'";
         $consulta = $ic->db->prepare($sql);
         $consulta->execute();
         if($consulta){
