@@ -30,13 +30,6 @@
                         <h3>¡GRACIAS!</h3>
                         <p class="texto">Código de dscto:</p>
                         <p class="codigo">2021_XI0TA05DESC00110%</p>
-                        <div class="logos">
-                            <a class="sociales__item" target="_blank" href="https://www.instagram.com/neon_led_store/"><i class="fab fa-instagram-square"></i></a>
-                            <a class="sociales__item" target="_blank" href="https://www.facebook.com/nhldecoracioncomercial"> <i class="fab fa-facebook"></i></a>
-                            <a class="sociales__item"  target="_blank" href="https://www.youtube.com/user/NEONHOUSELEDS"> <i class="fab fa-youtube"></i></a>
-                            <a class="sociales__item" target="_blank" href="https://twitter.com/NEONHOUSELEDS"><i class="fab fa-twitter-square"></i></a>
-                            <a class="sociales__item" target="_blank" href="https://www.linkedin.com/in/neonhouseled/"><i class="fab fa-invision"></i></a>
-                        </div>
                     </div>
                 </div>
             </div>
