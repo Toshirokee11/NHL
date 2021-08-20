@@ -6,7 +6,7 @@ class Conexion{
  public function __construct()
     {
     $host = "localhost";
-    $dbname = "ghxumdmy_neonledstore";
+    $dbname = "ghxumdmy_neonhouselednew";
     $username = "root";
     $password = "";
     /*

@@ -1,6 +1,7 @@
 <?php
 
 require_once dirname(dirname(__FILE__)) .'/model/userModel.php';
+require_once dirname(dirname(__FILE__)) .'/model/suscriptorModel.php';
 require_once 'staterController.php';
 $sesion = new StaterController();
 
@@ -289,6 +290,33 @@ if(isset($_GET['action']) && $_GET['action']=='showGalleryForAll')
 
 }
 
+
+/**NUEVO SUSCRIPTOR */
+if(isset($_POST['action']) && $_POST['action']=='addSucriptor')
+{
+
+    if(!empty($_POST["nombre"]) && !empty($_POST["telefono"]) && !empty($_POST["correo"]) ){
+        
+        $nombre = $_POST['nombre'];
+        $telefono = $_POST['telefono'];
+        $correo = $_POST['correo'];    
+
+        $instanciaController = new Suscriptor($nombre, $telefono, $correo);
+
+        $r = $instanciaController->nuevo();
+
+        if($r>0){
+            echo json_encode(true);
+        }else{
+            echo json_encode(false);
+        }
+
+    }else{
+        echo json_encode(false);
+    }
+
+
+}
 
 
 ?>
