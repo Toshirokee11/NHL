@@ -15,7 +15,7 @@ class Suscriptor{
         $this->correo = $correo;
     }
 
-    public function nuevo()
+    public function nuevoSuscriptor()
     {
         $ic = new Conexion();
         
@@ -29,15 +29,15 @@ class Suscriptor{
         
     }
     
-    public function buscarCorreo()
+    public function buscarSuscriptor()
     {
         $ic = new Conexion();
-        $sql = "SELECT * FROM suscriptor WHERE correo='$this->correo'";
+        $sql = "select count(*) AS resultado FROM suscriptor WHERE correo='$this->correo';";
         $consulta = $ic->db->prepare($sql);
         $consulta->execute();
         if($consulta){
 
-            $objetoConsulta = $consulta->fetchAll(PDO::FETCH_OBJ);
+            $objetoConsulta = $consulta->fetch();
             return $objetoConsulta;
 
         }

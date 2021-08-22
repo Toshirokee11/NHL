@@ -303,12 +303,14 @@ if(isset($_POST['action']) && $_POST['action']=='addSucriptor')
 
         $instanciaController = new Suscriptor($nombre, $telefono, $correo);
 
-        $r = $instanciaController->nuevo();
+        $r = $instanciaController->buscarSuscriptor();
 
-        if($r>0){
+        if($r["resultado"]>0){
             echo json_encode(true);
         }else{
-            echo json_encode(false);
+            $instancia = new Suscriptor($nombre, $telefono, $correo);
+            $instancia->nuevoSuscriptor();
+            echo json_encode(true);
         }
 
     }else{
