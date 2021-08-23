@@ -7,13 +7,13 @@ class Conexion{
     {
     $host = "localhost";
     $dbname = "ghxumdmy_neonhouselednew";
-    $username = "root";
-    $password = "";
+    $username = "ghxumdmy_neonhoselednew";
+    $password = "C,nnQLkM7a!p";
     /*
     $host = "localhost";
-    $dbname = "ghxumdmy_neonledstore";
-    $username = "ghxumdmy_userbrayan";
-    $password = ",V)-pnTOsXia";
+    $dbname = "ghxumdmy_neonhouselednew";
+    $username = "ghxumdmy_neonhouselednew";
+    $password = "C,nnQLkM7a!p";
     */
     try {
         $this->db = new PDO("mysql:host=$host;dbname=$dbname",$username,$password);
