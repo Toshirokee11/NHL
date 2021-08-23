@@ -306,8 +306,10 @@ if(isset($_POST['action']) && $_POST['action']=='addSucriptor')
         $r = $instanciaController->buscarSuscriptor();
 
         if($r["resultado"]>0){
+            //usuario ya existe BD
             echo json_encode(true);
         }else{
+            //registrar
             $instancia = new Suscriptor($nombre, $telefono, $correo);
             $instancia->nuevoSuscriptor();
             echo json_encode(true);

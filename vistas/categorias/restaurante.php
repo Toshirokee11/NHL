@@ -43,6 +43,10 @@
             if(isset($_COOKIE["user"]))
             {
                 echo "<center>Aqui se mostraran imagenes</center>";
+                
+
+
+
             }
         ?>
 
