@@ -315,3 +315,35 @@ if(isset($_POST['action']) && $_POST['action']=='changeStatusForUser'){
     }
     $instanciaController->changeUserStatus($id,$status);
 }
+
+
+/**NUEVO SUSCRIPTOR */
+if(isset($_POST['action']) && $_POST['action']=='addSucriptor')
+{
+
+    if(!empty($_POST["nombre"]) && !empty($_POST["telefono"]) && !empty($_POST["correo"]) ){
+        
+        $nombre = $_POST['nombre'];
+        $telefono = $_POST['telefono'];
+        $correo = $_POST['correo'];    
+
+        $instanciaController = new Suscriptor($nombre, $telefono, $correo);
+
+        $r = $instanciaController->buscarSuscriptor();
+
+        if($r["resultado"]>0){
+            //usuario ya existe BD
+            echo json_encode(true);
+        }else{
+            //registrar
+            $instancia = new Suscriptor($nombre, $telefono, $correo);
+            $instancia->nuevoSuscriptor();
+            echo json_encode(true);
+        }
+
+    }else{
+        echo json_encode(false);
+    }
+
+
+}
