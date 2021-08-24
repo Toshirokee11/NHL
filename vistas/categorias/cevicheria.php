@@ -36,8 +36,6 @@
         <button class="catalogo" id="catalogo">Ver catálogo completo</button>
 
         <a href="../contacto.php"><button class="cotizar">Cotizar</button></a>
-
-        <a href="contacto.php"><button class="cotizar">Cotizar</button></a>       
         
         <style>
             .galeria img{
