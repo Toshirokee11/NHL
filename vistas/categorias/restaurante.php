@@ -36,7 +36,7 @@
         <h2 class="subtitulo">Revisa nuestros diseños exclusivos:</h2>
         <button class="catalogo" id="catalogo">Ver catálogo completo</button>
 
-        <a href="contacto.php"><button class="cotizar">Cotizar</button></a>
+        <a href="../contacto.php"><button class="cotizar">Cotizar</button></a>
 
         <div class="galeria-imagenes" id="restaurante-imagen"></div>
 
