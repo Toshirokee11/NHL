@@ -8,12 +8,10 @@
 
     <?php require_once "../layout/links.php" ?>
 
-
 </head>
 
 <body>
     <?php require_once "../layout/header.php" ?>
-
 
     <main class="main__categoria">
         <h1 class="categoria1__titulo ">RESTAURANTE</h1>
@@ -39,17 +37,23 @@
 
         <div class="galeria-imagenes" id="restaurante-imagen"></div>
 
-        <?php
-            if(isset($_COOKIE["user"]))
-            {
-                echo "<center>Aqui se mostraran imagenes</center>";
-                
-
-
-
+        <style>
+            .galeria img{
+                margin:20px 20px;
             }
-        ?>
+        </style>
 
+        <center> 
+            <div style="width: 100%; height: auto;" class="galeria">
+                <?php
+                    if(isset($_COOKIE["user"]))
+                    {
+                        require_once "../layout/funciones.php";
+                        mostrar_imagenes("restaurantes");
+                    }
+                ?>
+            </div>
+        </center>  
 
         <div id="form_1" class="overlay__formulario">
             <a href="#" id="x_1" class="overlay__x x">X</a>
