@@ -265,7 +265,21 @@
                 class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
                 <a ><img  src="public/imagenes/auspicios/utilex.webp"   
                 class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img  src="public/imagenes/auspicios/vladi.webp"   
+                <a  ><img src="public/imagenes/auspicios/vladi.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img  src="public/imagenes/auspicios/hilton.webp"   class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img src="public/imagenes/auspicios/sagafalabella.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img src="public/imagenes/auspicios/touloulause.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img  src="public/imagenes/auspicios/hotel colors.webp"   class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img src="public/imagenes/auspicios/petroperu.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img src="public/imagenes/auspicios/entel.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img  src="public/imagenes/auspicios/cristal.webp"   class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img  src="public/imagenes/auspicios/backus.webp"   
+                class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img  src="public/imagenes/auspicios/olympuz.webp"   
+                class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img  src="public/imagenes/auspicios/ripley.webp"   
+                class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img  src="public/imagenes/auspicios/utilex.webp"   
                 class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
                 <a  ><img src="public/imagenes/auspicios/vladi.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
                 <a ><img  src="public/imagenes/auspicios/hilton.webp"   class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
@@ -283,7 +297,21 @@
                 class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
                 <a ><img  src="public/imagenes/auspicios/utilex.webp"   
                 class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img  src="public/imagenes/auspicios/vladi.webp"   
+                <a  ><img src="public/imagenes/auspicios/vladi.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img  src="public/imagenes/auspicios/hilton.webp"   class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img src="public/imagenes/auspicios/sagafalabella.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img src="public/imagenes/auspicios/touloulause.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img  src="public/imagenes/auspicios/hotel colors.webp"   class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img src="public/imagenes/auspicios/petroperu.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img src="public/imagenes/auspicios/entel.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img  src="public/imagenes/auspicios/cristal.webp"   class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img  src="public/imagenes/auspicios/backus.webp"   
+                class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img  src="public/imagenes/auspicios/olympuz.webp"   
+                class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img  src="public/imagenes/auspicios/ripley.webp"   
+                class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img  src="public/imagenes/auspicios/utilex.webp"   
                 class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
                 <a  ><img src="public/imagenes/auspicios/vladi.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
                 <a ><img  src="public/imagenes/auspicios/hilton.webp"   class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
@@ -301,7 +329,21 @@
                 class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
                 <a ><img  src="public/imagenes/auspicios/utilex.webp"   
                 class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img  src="public/imagenes/auspicios/vladi.webp"   
+                <a  ><img src="public/imagenes/auspicios/vladi.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img  src="public/imagenes/auspicios/hilton.webp"   class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img src="public/imagenes/auspicios/sagafalabella.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img src="public/imagenes/auspicios/touloulause.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img  src="public/imagenes/auspicios/hotel colors.webp"   class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img src="public/imagenes/auspicios/petroperu.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img src="public/imagenes/auspicios/entel.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img  src="public/imagenes/auspicios/cristal.webp"   class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img  src="public/imagenes/auspicios/backus.webp"   
+                class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img  src="public/imagenes/auspicios/olympuz.webp"   
+                class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img  src="public/imagenes/auspicios/ripley.webp"   
+                class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
+                <a ><img  src="public/imagenes/auspicios/utilex.webp"   
                 class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
                 <a  ><img src="public/imagenes/auspicios/vladi.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
                 <a ><img  src="public/imagenes/auspicios/hilton.webp"   class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
@@ -319,8 +361,6 @@
                 class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
                 <a ><img  src="public/imagenes/auspicios/utilex.webp"   
                 class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img  src="public/imagenes/auspicios/vladi.webp"   
-                class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
                 <a  ><img src="public/imagenes/auspicios/vladi.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
                 <a ><img  src="public/imagenes/auspicios/hilton.webp"   class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
                 <a ><img src="public/imagenes/auspicios/sagafalabella.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
@@ -337,8 +377,6 @@
                 class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
                 <a ><img  src="public/imagenes/auspicios/utilex.webp"   
                 class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img  src="public/imagenes/auspicios/vladi.webp"   
-                class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
                 <a  ><img src="public/imagenes/auspicios/vladi.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
                 <a ><img  src="public/imagenes/auspicios/hilton.webp"   class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
                 <a ><img src="public/imagenes/auspicios/sagafalabella.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
@@ -354,62 +392,6 @@
                 <a ><img  src="public/imagenes/auspicios/ripley.webp"   
                 class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
                 <a ><img  src="public/imagenes/auspicios/utilex.webp"   
-                class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img  src="public/imagenes/auspicios/vladi.webp"   
-                class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a  ><img src="public/imagenes/auspicios/vladi.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img  src="public/imagenes/auspicios/hilton.webp"   class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img src="public/imagenes/auspicios/sagafalabella.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img src="public/imagenes/auspicios/touloulause.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img  src="public/imagenes/auspicios/hotel colors.webp"   class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img src="public/imagenes/auspicios/petroperu.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img src="public/imagenes/auspicios/entel.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img  src="public/imagenes/auspicios/cristal.webp"   class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img  src="public/imagenes/auspicios/backus.webp"   
-                class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img  src="public/imagenes/auspicios/olympuz.webp"   
-                class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img  src="public/imagenes/auspicios/ripley.webp"   
-                class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img  src="public/imagenes/auspicios/utilex.webp"   
-                class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img  src="public/imagenes/auspicios/vladi.webp"   
-                class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a  ><img src="public/imagenes/auspicios/vladi.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img  src="public/imagenes/auspicios/hilton.webp"   class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img src="public/imagenes/auspicios/sagafalabella.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img src="public/imagenes/auspicios/touloulause.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img  src="public/imagenes/auspicios/hotel colors.webp"   class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img src="public/imagenes/auspicios/petroperu.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img src="public/imagenes/auspicios/entel.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img  src="public/imagenes/auspicios/cristal.webp"   class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img  src="public/imagenes/auspicios/backus.webp"   
-                class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img  src="public/imagenes/auspicios/olympuz.webp"   
-                class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img  src="public/imagenes/auspicios/ripley.webp"   
-                class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img  src="public/imagenes/auspicios/utilex.webp"   
-                class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img  src="public/imagenes/auspicios/vladi.webp"   
-                class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a  ><img src="public/imagenes/auspicios/vladi.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img  src="public/imagenes/auspicios/hilton.webp"   class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img src="public/imagenes/auspicios/sagafalabella.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img src="public/imagenes/auspicios/touloulause.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img  src="public/imagenes/auspicios/hotel colors.webp"   class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img src="public/imagenes/auspicios/petroperu.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img src="public/imagenes/auspicios/entel.webp"  class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img  src="public/imagenes/auspicios/cristal.webp"   class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img  src="public/imagenes/auspicios/backus.webp"   
-                class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img  src="public/imagenes/auspicios/olympuz.webp"   
-                class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img  src="public/imagenes/auspicios/ripley.webp"   
-                class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img  src="public/imagenes/auspicios/utilex.webp"   
-                class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
-                <a ><img  src="public/imagenes/auspicios/vladi.webp"   
                 class="icon-img-empresa" width="126" height="125" alt="cliente"></a>
                 </span>
                 </p>    
