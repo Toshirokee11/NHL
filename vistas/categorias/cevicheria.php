@@ -37,17 +37,25 @@
 
         <a href="../contacto.php"><button class="cotizar">Cotizar</button></a>
 
+        <a href="contacto.php"><button class="cotizar">Cotizar</button></a>       
         
-        <?php
-            if(isset($_COOKIE["user"]))
-            {
-                echo "<center>Aqui se mostraran imagenes</center>";
+        <style>
+            .galeria img{
+                margin:20px 20px;
             }
-        ?>
+        </style>
 
-        <div class="galeria-imagenes" id="cevicheria-imagen"></div>
-
-
+        <center> 
+            <div style="width: 100%; height: auto;" class="galeria">
+                <?php
+                    if(isset($_COOKIE["user"]))
+                    {
+                        require_once "../layout/funciones.php";
+                        mostrar_imagenes("cevicheria");
+                    }
+                ?>
+            </div>
+        </center>  
 
         <div id="form_1" class="overlay__formulario">
             <a href="#" id="x_1" class="overlay__x x">X</a>

@@ -35,4 +35,4 @@
             </div>
         </div>
 
-        <script async src="/public/js/addSuscriptor.js" ></script>
+        <script defer src="/public/js/addSuscriptor.js" ></script>
