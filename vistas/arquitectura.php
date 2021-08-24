@@ -5,12 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neon House Led-Servicios</title>
-    <link rel="shortcut icon" href="../ico.ico" type="image/x-ico">
-
-    <link rel="stylesheet" href="../public/css/shared/header.css">
-    <link rel="stylesheet" href="../public/css/shared/footer.css">
-    <link rel="stylesheet" href="../public/css/shared/categoria.css">
-    <link rel="stylesheet" href="../public/css/shared/arquitectura.css">
+    <?php require_once "layout/links.php" ?>
 </head>
 
 <body>
@@ -20,11 +15,7 @@
         <h1 class="categoria1__titulo ">ARQUITECTURA COMERCIAL</h1>
         <div class="categoria1__section">
 
-
-
-            
-
-            <figure class="categoria1__imagen derecha">
+            <figure class="categoria1__imagen">
                 <a href="#">
                 <img class="categoria1__img" id="imagen_2" src="../public/imagenes/arquitectura/1.webp" alt="Diversión Asegurada"></a>
                 <figcaption class="categoria1__desc"><strong>DIVERSIÓN ASEGURADA</strong> <p> Lo importante es la comodidad y el estilo para disfrutar de la noche.</p></figcaption>
@@ -36,7 +27,7 @@
                 <figcaption class="categoria1__desc"><strong>ARTE PARA TODOS</strong> <p>Lo ideal es salir de lo tradicional con una buena iluminación y una barra personalizada.</p></figcaption>
             </figure>
 
-            <figure class="categoria1__imagen derecha">
+            <figure class="categoria1__imagen">
                 <a href="#">
                 <img class="categoria1__img" id="imagen_4" src="../public/imagenes/arquitectura/3.webp" alt="Iluminación puntual"></a>
                 <figcaption class="categoria1__desc"><strong>ILUMINACIÓN PUNTUAL</strong> <p> El bar es el área principal y una iluminación led es la adecuada para hacerlo más
@@ -50,24 +41,29 @@
             </a>
                 <figcaption class="categoria1__desc"><strong>ESTILO MODERNO</strong> <p> Con una buena iluminación cálida se puede obtener un estilo moderno y elegante.</p></figcaption>
             </figure>
+        </div>
 
-           
-
-
-
-
-
-
-
-
-
-
+        <h2 class="subtitulo">Revisa nuestros diseños exclusivos:</h2>
+        <button class="catalogo" id="catalogo">Ver catálogo completo</button>
+        <?php require_once "layout/modal.php" ?>
+        <a href="contacto.php"><button class="cotizar">Cotizar</button></a>
 
     </main>
 
 
 
 <?php require_once "layout/foother.php" ?>
+<script defer type="text/javascript" src="../public/js/modal.js"></script>
+<script defer>
+    // 360 viewer
+    var PSV = new PhotoSphereViewer({
+        panorama: '../../public/imagenes/Imagenes 360/BAR/2.webp',
+        container: 'photosphere',
+        navbar: 'fullscreen',
+        default_fov: 65,
+        mousewheel: false,
+    });
+    </script>
 
 </body>
 

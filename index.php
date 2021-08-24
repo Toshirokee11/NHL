@@ -416,6 +416,25 @@
 
     <div class="ubicanos">
 
+        <h2 class="ubicanos__titulo titulo">TENDENCIA, VANGUARDIA Y NOVEDADES / NUEVOS PROYECTOS</h2>
+
+        <div class="categoria__section proyectos">
+            <figure class="categoria__imagen">
+                <a href="https://youtu.be/qU08CNcnQhA"><img class="categoria__img lazyload" id="imagen_1" data-src="public/imagenes/proyectos/1.webp" alt="Cevicheria"></a>
+                <figcaption class="categoria__desc">DECORACIÓN E ILUMINACIÓN DE INTERIORES Y EXTERIORES</figcaption>
+            </figure>
+            <figure class="categoria__imagen">
+                <a href="https://youtu.be/3QMkxPf7H3U"><img class="categoria__img lazyload" id="imagen_1" data-src="public/imagenes/proyectos/2.webp" alt="Cevicheria"></a>
+                <figcaption class="categoria__desc">DECORACIÓN CON PANTALLAS LED</figcaption>
+            </figure>
+        </div>
+
+
+    </div>
+
+
+    <div class="ubicanos">
+
         <h2 class="ubicanos__titulo titulo">UBÍCANOS</h2>
 
         <div class="mapas">

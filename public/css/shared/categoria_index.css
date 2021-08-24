@@ -42,8 +42,10 @@ figure{
     width:100%;
     height:100%
 }
-.categoria__img{
-    width:100%
+.proyectos{
+    margin-top:2rem;
+    grid-template-rows:250px;
+    grid-auto-rows:250px;
 }
 .categoria__imagen{
     position:relative;
@@ -252,12 +254,14 @@ figure{
     left:0
 }
 .categoria__section{
-    grid-template-columns:repeat(4,minmax(150px,1fr))
-}
-.categoria__section{
+    grid-template-columns:repeat(4,minmax(150px,1fr));
     width:80%;
     margin:0 auto;
     margin-bottom:4rem
+}
+.proyectos{
+    grid-template-columns:repeat(3,minmax(150px,1fr));
+    margin-top:4rem;
 }
 .titulo{
     font-size:40px;
@@ -283,6 +287,11 @@ figure{
 @media screen and (min-width:1200px){
     .categoria__section{
     grid-template-columns:repeat(4,minmax(150px,1fr))
+}
+
+.proyectos{
+    grid-template-columns:repeat(3,minmax(150px,1fr));
+    margin-top:4rem;
 }
 
 }

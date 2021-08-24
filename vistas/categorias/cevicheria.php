@@ -7,6 +7,7 @@
     <title>Neon House Led-Servicios</title>
 
     <?php require_once "../layout/links.php" ?>
+    <link rel="preload" href="../../public/css/shared/slider.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     
 
 </head>

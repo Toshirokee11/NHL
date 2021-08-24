@@ -21,7 +21,7 @@
 
 
 
-            <figure class="categoria1__imagen derecha">
+            <figure class="categoria1__imagen">
                 <a href="categorias/restaurante.php">
                 <img loading="lazy" class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/restaurante.webp" alt="Restaurante">
             </a>
@@ -35,7 +35,7 @@
             </figure>
 
 
-            <figure class="categoria1__imagen derecha">
+            <figure class="categoria1__imagen">
                 <a href="categorias/sangucheria.php">
                 <img loading="lazy" class="categoria1__img" id="imagen_2" src="../public/imagenes/categoria/sangucheria.webp" alt="Sanguchería"></a>
                 <figcaption class="categoria1__desc">SANGUCHERÍA</figcaption>
@@ -48,7 +48,7 @@
             </figure>
 
 
-            <figure class="categoria1__imagen derecha">
+            <figure class="categoria1__imagen">
                 <a href="categorias/polleria.php">
                 <img loading="lazy" class="categoria1__img" id="imagen_4" src="../public/imagenes/categoria/polleria.webp" alt="Pollería"></a>
                 <figcaption class="categoria1__desc">POLLERÍA</figcaption>
@@ -62,7 +62,7 @@
             </figure>
 
 
-            <figure class="categoria1__imagen derecha">
+            <figure class="categoria1__imagen">
                 <a href="categorias/pizzeria.php">
                 <img loading="lazy" class="categoria1__img" id="imagen_10" src="../public/imagenes/categoria/pizzeria.webp" alt="Pizzería"></a>
                 <figcaption class="categoria1__desc">PIZZERÍA</figcaption>
@@ -75,7 +75,7 @@
             </figure>
 
 
-            <figure class="categoria1__imagen derecha">
+            <figure class="categoria1__imagen">
                 <a href="categorias/panaderia.php">
                 <img loading="lazy" class="categoria1__img" id="imagen_9" src="../public/imagenes/categoria/panaderia.webp" alt="Panadería y pastelería"></a>
                 <figcaption class="categoria1__desc">PANADERÍA Y PASTELERÍA</figcaption>
@@ -88,7 +88,7 @@
             </figure>
 
 
-            <figure class="categoria1__imagen derecha">
+            <figure class="categoria1__imagen">
                 <a href="categorias/bar.php">
                 <img loading="lazy" class="categoria1__img" id="imagen_9" src="../public/imagenes/categoria/bar.webp" alt="Bar"></a>
                 <figcaption class="categoria1__desc">BAR</figcaption>
@@ -101,7 +101,7 @@
             </figure>
 
 
-            <figure class="categoria1__imagen derecha">
+            <figure class="categoria1__imagen">
                 <a href="categorias/minimarket.php">
                 <img loading="lazy" class="categoria1__img" id="imagen_9" src="../public/imagenes/categoria/minimarket.webp" alt="Minimarket"></a>
                 <figcaption class="categoria1__desc">MINIMARKET</figcaption>
@@ -114,7 +114,7 @@
             </figure>
 
             
-            <figure class="categoria1__imagen derecha">
+            <figure class="categoria1__imagen">
                 <a href="categorias/departamento.php">
                 <img loading="lazy" class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/departamento.webp" alt="Departamento"></a>
                 <figcaption class="categoria1__desc">DEPARTAMENTO</figcaption>
@@ -127,7 +127,7 @@
             </figure>
 
             
-            <figure class="categoria1__imagen derecha">
+            <figure class="categoria1__imagen">
                 <a href="categorias/industrial.php">
                 <img loading="lazy" class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/industrial.webp" alt="Estilo industrial"></a>
                 <figcaption class="categoria1__desc">ESTILO INDUSTRIAL</figcaption>
@@ -140,7 +140,7 @@
             </figure>
 
             
-            <figure class="categoria1__imagen derecha">
+            <figure class="categoria1__imagen">
                 <a href="categorias/gimnasio.php">
                 <img loading="lazy" class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/gimnasio.webp" alt="Gimnasio"></a>
                 <figcaption class="categoria1__desc">GIMNASIO</figcaption>
@@ -153,7 +153,7 @@
             </figure>
 
             
-            <figure class="categoria1__imagen derecha">
+            <figure class="categoria1__imagen">
                 <a href="categorias/recepciones.php">
                 <img loading="lazy" class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/recepciones.webp" alt="Recepciones"></a>
                 <figcaption class="categoria1__desc">RECEPCIONES</figcaption>
@@ -166,7 +166,7 @@
             </figure>
 
             
-            <figure class="categoria1__imagen derecha">
+            <figure class="categoria1__imagen">
                 <a href="categorias/belleza.php">
                 <img loading="lazy" class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/belleza.webp" alt="Salón belleza y barbería"></a>
                 <figcaption class="categoria1__desc">SALÓN BELLEZA Y BARBERIA</figcaption>
@@ -179,7 +179,7 @@
             </figure>
 
             
-            <figure class="categoria1__imagen derecha">
+            <figure class="categoria1__imagen">
                 <a href="categorias/ropa.php">
                 <img loading="lazy" class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/ropa.webp" alt="Ropa"></a>
                 <figcaption class="categoria1__desc">ROPA</figcaption>

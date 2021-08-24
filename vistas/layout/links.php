@@ -4,9 +4,9 @@
     
     <link rel="preload" href="../../public/css/shared/footer.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
-    <link rel="preload" href="../../public/css/shared/slider.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-
     <link rel="preload" href="../../public/css/shared/modal.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+    <link rel="preload" href="../../public/css/shared/categoria.css" as="style" onload="this.onload=null;this.rel='stylesheet'">  
 
     <link rel="preload" href="../../public/css/shared/restaurante.css" as="style" onload="this.onload=null;this.rel='stylesheet'">   
 

@@ -21,7 +21,7 @@
 
 
 
-            <figure class="categoria1__imagen derecha">
+            <figure class="categoria1__imagen">
                 <a href="arquitectura.php">
                 <img class="categoria1__img" id="imagen_5" src="../public/imagenes/servicios/Arquitectura comercial.webp" alt="Imagen del selvicio">
             </a>
@@ -35,7 +35,7 @@
                 <figcaption class="categoria1__desc">DECORACIÓN Y REMODELACIÓN</figcaption>
             </figure>
 
-            <figure class="categoria1__imagen derecha">
+            <figure class="categoria1__imagen">
                 <a href="neon.php">
                 <img class="categoria1__img" id="imagen_2" src="../public/imagenes/servicios/Fabricacion Neon.webp" alt="Imagen del selvicio"></a>
                 <figcaption class="categoria1__desc">FABRICACIÓN NEON</figcaption>
@@ -47,7 +47,7 @@
                 <figcaption class="categoria1__desc">FABRICACIÓN MOBILIARIA</figcaption>
             </figure>
 
-            <figure class="categoria1__imagen derecha">
+            <figure class="categoria1__imagen">
                 <a href="luminosos.php">
                 <img class="categoria1__img" id="imagen_4" src="../public/imagenes/servicios/Letreros Luminosos.webp" alt="Imagen del selvicio"></a>
                 <figcaption class="categoria1__desc">LETREROS LUMINOSOS</figcaption>

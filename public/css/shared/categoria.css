@@ -83,14 +83,11 @@ figure {
         margin-bottom: 2rem;
     }
 
-    .derecha{
-        margin-right:2rem;
-    }
-
     .categoria1__section{
         width: 80%;
         margin-right: auto;
         margin-left: auto;
+        justify-content: space-between;
     }
     .categoria1__img{
         height: 100%;
