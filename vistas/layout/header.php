@@ -1,11 +1,11 @@
 <!--Ajax-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     
     <header class="header">
         <figure class="logo-container">
             <a href="../../index.php">
-                <img src="../../public/imagenes/Neon_House_Logo.webp" alt="Leono Neon House">
+                <img src="../../public/imagenes/Neon_House_Logo.webp" alt="Logo Neon House LED">
             </a>
         </figure>
         <nav class="menu">
