@@ -35,7 +35,18 @@
 
         <a href="../contacto.php"><button class="cotizar">Cotizar</button></a>
 
-        <div class="galeria-imagenes" id="restobar-imagen"></div>
+        <div class="galeria">
+            <div class="galeria-imagenes">
+                <?php
+                    if(isset($_COOKIE["user"]))
+                    {
+                        require_once "../layout/funciones.php";
+                        mostrar_imagenes("restaurantes");
+                    }
+                ?>
+            </div> 
+
+        </div>
 
         <div id="form_1" class="overlay__formulario">
             <a href="#" id="x_1" class="overlay__x x">X</a>

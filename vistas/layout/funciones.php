@@ -13,7 +13,7 @@ function mostrar_imagenes($ruta){
         while (($archivo = readdir($gestor)) !== false) {
             // Solo buscamos archivos sin entrar en subdirectorios
             if (is_file($ruta."/".$archivo)) {
-            echo "<img src='".$ruta."/".$archivo."' width='300px' height='300px' ' alt='".$archivo."' title='".$archivo."'>";
+            echo "<img loading='lazy' src='".$ruta."/".$archivo."' alt='".$archivo."' title='".$archivo."'>";
             }            
         }
 
