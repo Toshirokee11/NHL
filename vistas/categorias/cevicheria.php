@@ -43,7 +43,7 @@
                     if(isset($_COOKIE["user"]))
                     {
                         require_once "../layout/funciones.php";
-                        mostrar_imagenes("restaurantes");
+                        mostrar_imagenes("cevicheria");
                     }
                 ?>
             </div> 
