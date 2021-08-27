@@ -190,6 +190,13 @@
                 <img loading="lazy" class="categoria1__img" id="imagen_5" src="../public/imagenes/categoria/veterinaria.webp" alt="Veterinaria"></a>
                 <figcaption class="categoria1__desc">VETERINARIA</figcaption>
             </figure>
+
+            
+            <figure class="categoria1__imagen">
+                <a href="categorias/heladeria.php">
+                <img loading="lazy" class="categoria1__img" id="imagen_1" src="../public/imagenes/categoria/heladeria.webp" alt="Heladeria"></a>
+                <figcaption class="categoria1__desc">HELADERIA</figcaption>
+            </figure>
     </main>
 
     <?php require_once "layout/foother.php" ?>

@@ -22,7 +22,7 @@
 
 
             <figure class="categoria1__imagen">
-                <a href="arquitectura.php">
+                <a href="servicios/arquitectura.php">
                 <img class="categoria1__img" id="imagen_5" src="../public/imagenes/servicios/Arquitectura comercial.webp" alt="Imagen del selvicio">
             </a>
                 <figcaption class="categoria1__desc">ARQUITECTURA COMERCIAL</figcaption>
@@ -30,32 +30,32 @@
 
 
             <figure class="categoria1__imagen">
-                <a href="decoracion.php">
+                <a href="servicios/decoracion.php">
                 <img class="categoria1__img" id="imagen_1" src="../public/imagenes/servicios/Decoracion y remodelacion.webp" alt="Imagen del selvicio"></a>
                 <figcaption class="categoria1__desc">DECORACIÓN Y REMODELACIÓN</figcaption>
             </figure>
 
             <figure class="categoria1__imagen">
-                <a href="neon.php">
+                <a href="servicios/neon.php">
                 <img class="categoria1__img" id="imagen_2" src="../public/imagenes/servicios/Fabricacion Neon.webp" alt="Imagen del selvicio"></a>
                 <figcaption class="categoria1__desc">FABRICACIÓN NEON</figcaption>
             </figure>
 
             <figure class="categoria1__imagen">
-                <a href="mobiliaria.php">
+                <a href="servicios/mobiliaria.php">
                 <img class="categoria1__img" id="imagen_7" src="../public/imagenes/servicios/Fabricacion Mobiliaria.webp" alt="Imagen del selvicio"></a>
                 <figcaption class="categoria1__desc">FABRICACIÓN MOBILIARIA</figcaption>
             </figure>
 
             <figure class="categoria1__imagen">
-                <a href="luminosos.php">
+                <a href="servicios/luminosos.php">
                 <img class="categoria1__img" id="imagen_4" src="../public/imagenes/servicios/Letreros Luminosos.webp" alt="Imagen del selvicio"></a>
                 <figcaption class="categoria1__desc">LETREROS LUMINOSOS</figcaption>
             </figure>
 
 
             <figure class="categoria1__imagen">
-                <a href="led.php">
+                <a href="servicios/led.php">
                 <img class="categoria1__img" id="imagen_3" src="../public/imagenes/servicios/Paneles Led.webp" alt="Imagen del selvicio">
             </a>
                 <figcaption class="categoria1__desc">PANELES LED</figcaption>

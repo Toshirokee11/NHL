@@ -231,6 +231,10 @@
                 <a href="vistas\categorias\veterinaria.php"><img class="categoria__img lazyload" id="imagen__26" data-src="public/imagenes/categoria/veterinaria.webp" alt="Veterinaria"></a>
                 <figcaption class="categoria__desc">VETERINARIA</figcaption>
             </figure>
+            <figure class="categoria__imagen">
+                <a href="vistas\categorias\heladeria.php"><img class="categoria__img lazyload" id="imagen__27" data-src="public/imagenes/categoria/heladeria.webp" alt="Heladeria"></a>
+                <figcaption class="categoria__desc">HELADERIA</figcaption>
+            </figure>
 
           <!--Fin Nuevas Categorias-->
 
