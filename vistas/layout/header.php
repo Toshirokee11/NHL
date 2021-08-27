@@ -53,6 +53,9 @@
                 <li>
                     <a href="../../vistas/contacto.php">Contáctenos</a>
                 </li>
+                <li>
+                    <a href="#">Luces Led Programables</a>
+                </li>
             </ul>
         </nav>
         <div class="burger-button">
