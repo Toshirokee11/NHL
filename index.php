@@ -60,37 +60,37 @@
         <h2 class="services-title">Servicios</h2>
         <div class="services-items-container">
             <div class="services-item">
-                <a href="vistas\arquitectura.php"><figure class="img-item-container">
+                <a href="vistas\servicios\arquitectura.php"><figure class="img-item-container">
                     <img src="public/imagenes/index/arquitectura comercial.webp" alt="Alquitectura comercial">
                 </figure></a>
                 <h3>Arquitectura comercial</h3>
             </div>
             <div class="services-item">
-                <a href="vistas\mobiliaria.php"><figure class="img-item-container">
+                <a href="vistas\servicios\mobiliaria.php"><figure class="img-item-container">
                     <img src="public/imagenes/index/fabricacion mobiliaria.webp" alt="Fabricación mobiliaria">
                 </figure></a>
                 <h3>Fabricación mobiliaria</h3>
             </div>
             <div class="services-item">
-                <a href="vistas\decoracion.php"><figure class="img-item-container">
+                <a href="vistas\servicios\decoracion.php"><figure class="img-item-container">
                     <img src="public/imagenes/index/decoracion y remodelacion.webp" alt="Decoración y remodelación">
                 </figure></a>
                 <h3>Decoración y remodelación</h3>
             </div>
             <div class="services-item">
-                <a href="vistas\neon.php"><figure class="img-item-container">
+                <a href="vistas\servicios\neon.php"><figure class="img-item-container">
                     <img src="public/imagenes/index/fabricacion neon.webp" alt="Fabricación neon">
                 </figure></a>
                 <h3>Fabricación neón</h3>
             </div>
             <div class="services-item">
-                <a href="vistas\luminosos.php"><figure class="img-item-container">
+                <a href="vistas\servicios\luminosos.php"><figure class="img-item-container">
                     <img src="public/imagenes/index/letreros luminosos.webp" alt="Letreros luminosos">
                 </figure></a>
                 <h3>Letreros luminosos</h3>
             </div>
             <div class="services-item">
-                <a href="vistas\led.php"><figure class="img-item-container">
+                <a href="vistas\servicios\led.php"><figure class="img-item-container">
                     <img src="public/imagenes/index/paneles led.webp" alt="Paneles led">
                 </figure></a>
                 <h3>Paneles LED</h3>
