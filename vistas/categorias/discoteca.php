@@ -82,8 +82,8 @@
  
 <?php require_once "../layout/foother.php" ?>
 
-<script defer type="text/javascript" src="../../public/js/modal.js"></script>
-<script defer>
+<script async type="text/javascript" src="../../public/js/modal.js"></script>
+<script async>
     // 360 viewer
     var PSV = new PhotoSphereViewer({
         panorama: '../../public/imagenes/Imagenes 360/DISCOTECA/1.webp',
