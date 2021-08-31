@@ -8,7 +8,7 @@ if (isset($_POST["enviar"])) {
     $Mensaje = $_POST['career'];
     //$Mensaje = $_POST['mensaje'];
 
-    if ($Nombres=='' || $Email=='' || $Telefono=='' || !is_numeric($Telefono) || strlen($Telefono)<=8 || strlen($Telefono)>=10 || $Mensaje==''){ 
+    if ($Nombres=='' || $Email=='' || $Telefono=='' || !is_numeric($Telefono) || strlen($Telefono)!=9  || $Mensaje==''){ 
         echo "<script>
             alert('Todos los campos no han sido rellenados o datos erroneos.');location.href ='javascript:history.back()';</script>";
 
@@ -19,7 +19,7 @@ if (isset($_POST["enviar"])) {
         
         $mail = new PHPMailer();
         $mail->setFrom($Email,$Nombres);
-        $mail->addAddress('ventasneonhouse@gmail.com'); //correo a la que le llegaran los correos 
+        $mail->addAddress('jeffrey.ostos@gmail.com'); //ventasneonhouse@  correo a la que le llegaran los correos 
         $mail->addReplyTo($Email,$Nombres);
     
         // Aqu¨ª van los datos que apareceran en el correo que reciba  
@@ -44,7 +44,7 @@ if (isset($_POST["enviar"])) {
         
         if ($mail->Send())
         //echo "<script>swal('Formulario enviado exitosamente', 'le responderemos lo mas pronto posible.','success');window.location.href='../index.php';</script>";
-        echo "<script>alert('Formulario enviado exitosamente, le responderemos lo mas pronto posible.');window.location.href='index.php';</script>";
+        echo "<script>alert('Formulario enviado exitosamente, le responderemos lo mas pronto posible.'); window.location.href='../index.php';</script>";
         else
         echo "<script>alert('Error al enviar el formulario');location.href ='javascript:history.back()';</script>";
 
