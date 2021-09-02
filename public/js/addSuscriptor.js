@@ -2,7 +2,11 @@ $("#login").submit(function(e){
     e.preventDefault();
 
     if($('#nombre').val()== "" || $('#telefono').val() == "" || $('#correo').val() == "" ){
-        alert("Asegurece de llenar todos los campos.");
+        Swal.fire({
+            icon: 'warning',
+            title: 'Opps..!',
+            text: 'Tiene que completar los campos.'
+        });
     }else{
 
         let nombre = $("#nombre").val();
@@ -20,20 +24,21 @@ $("#login").submit(function(e){
             url: "/admin/controller/userController.php",
             data: data,
             success: function(data){
-                
-                data=JSON.parse(data)
-                console.log("responsive serve"+data);
+                data = JSON.parse(data);
+                console.log(data);
 
-                if(data == true){
+                if(data.status) {
                     //alert("cookie agregada usuario");
                     document.cookie = "user=true; max-age=3600; path=/";
                     document.cookie = "modal=1; max-age=2; path=/";
                     location.reload();
-                    
-                }else{
-                    alert("error");
+                } else {
+                    Swal.fire({
+                        icon: data.type,
+                        title: 'Opps..!',
+                        text: data.msg
+                    });
                 }
-
             }                
         })
 

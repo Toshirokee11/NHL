@@ -24,9 +24,9 @@ class Suscriptor{
         $insertar->bindParam(1, $this->nombre);
         $insertar->bindParam(2, $this->telefono);
         $insertar->bindParam(3, $this->correo);
+        $result = $insertar->execute();
 
-        return $insertar->execute();
-        
+        return $result;
     }
     
     public function buscarSuscriptor()
@@ -35,14 +35,11 @@ class Suscriptor{
         $sql = "select count(*) AS resultado FROM suscriptor WHERE correo='$this->correo';";
         $consulta = $ic->db->prepare($sql);
         $consulta->execute();
-        if($consulta){
 
+        if($consulta){
             $objetoConsulta = $consulta->fetch();
             return $objetoConsulta;
-
         }
-        
-
     }
     
     protected function listUser()
@@ -52,9 +49,8 @@ class Suscriptor{
         $consulta = $ic->db->prepare($sql);
         $consulta->execute();
         $objetoConsulta = $consulta->fetchAll(PDO::FETCH_OBJ);
-        return $objetoConsulta;
-       
 
+        return $objetoConsulta;
     }
 
 }

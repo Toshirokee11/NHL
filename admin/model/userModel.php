@@ -53,7 +53,7 @@ class Usuario{
     {
         $ic = new Conexion();
         
-        $sql = "INSERT INTO users(username,password,user_level,status,nombres,telefono) VALUES(?,?,?,?,?)";
+        $sql = "INSERT INTO users(username,password,user_level,status,nombres,telefono) VALUES(?,?,?,default,?,?)";
         $insertar = $ic->db->prepare($sql);
         $insertar->bindParam(1, $this->username);
         $insertar->bindParam(2, $this->password);

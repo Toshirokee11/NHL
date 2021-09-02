@@ -329,22 +329,34 @@ if(isset($_POST['action']) && $_POST['action']=='addSucriptor')
         $correo = $_POST['correo'];    
 
         $instanciaController = new Suscriptor($nombre, $telefono, $correo);
-
         $r = $instanciaController->buscarSuscriptor();
 
         if($r["resultado"]>0){
-            //usuario ya existe BD
-            echo json_encode(true);
+            $response = [
+                'status' => false,
+                'msg' => 'El email ingresado ya se encuentra registrado.',
+                'type' => 'error'
+            ];
         }else{
             //registrar
             $instancia = new Suscriptor($nombre, $telefono, $correo);
             $instancia->nuevoSuscriptor();
-            echo json_encode(true);
+            if ($instancia) {
+                $response = [
+                    'status' => true,
+                    'msg' => 'Usuario registrado correctamente.',
+                    'type' => 'success'
+                ];
+            }
         }
-
     }else{
-        echo json_encode(false);
+        $response = [
+            'status' => false,
+            'msg' => 'Es necesario completar todos los campos.',
+            'type' => 'warning'
+        ];
     }
 
-
+    $json = json_encode($response);
+    echo $json;
 }
