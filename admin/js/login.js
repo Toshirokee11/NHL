@@ -11,13 +11,13 @@ $("#logins").submit(function(e) {
     //console.log(data.username);
     $.ajax({
         type: "POST",
-        url: "admin/controller/userController.php",
+        url: "./controller/userController.php",
         data: data,
         success: function(response) {
             if (response == 0) {
                 swal("Intente Nuevamente!", "Usuario o Contraseña Incorrecto!", "error");
             } else {
-                window.location.href = "admin/view/dashboard.php";
+                window.location.href = "./view/dashboard.php";
 
             }
 
