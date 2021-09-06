@@ -7,12 +7,12 @@ class Conexion{
     {
     $host = "localhost";
     $dbname = "ghxumdmy_neonhouselednew";
-    $username = "root";
-    $password = "";
+    $username = "ghxumdmy_neonhoselednew";
+    $password = "C,nnQLkM7a!p";
     /*
     $host = "localhost";
     $dbname = "ghxumdmy_neonhouselednew";
-    $username = "ghxumdmy_neonhouselednew";
+    $username = "ghxumdmy_neonhoselednew";
     $password = "C,nnQLkM7a!p";
     */
     try {

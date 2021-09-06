@@ -8,16 +8,16 @@ $("#logins").submit(function(e) {
         password: password,
         action: "login"
     }
-    //console.log(data.username);
+    console.log(data.username);
     $.ajax({
         type: "POST",
-        url: "./controller/userController.php",
+        url: "controller/userController.php",
         data: data,
         success: function(response) {
             if (response == 0) {
                 swal("Intente Nuevamente!", "Usuario o Contraseña Incorrecto!", "error");
             } else {
-                window.location.href = "./view/dashboard.php";
+                window.location.href = "view/dashboard.php";
 
             }
 

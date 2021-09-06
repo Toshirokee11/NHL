@@ -1,7 +1,6 @@
 <?php
 
 require_once dirname(dirname(__FILE__)) .'/model/userModel.php';
-require_once dirname(dirname(__FILE__)) .'/model/suscriptorModel.php';
 require_once 'staterController.php';
 $sesion = new StaterController();
 
@@ -315,50 +314,4 @@ if(isset($_POST['action']) && $_POST['action']=='changeStatusForUser'){
         $status=0;
     }
     $instanciaController->changeUserStatus($id,$status);
-}
-
-
-/**NUEVO SUSCRIPTOR */
-if(isset($_POST['action']) && $_POST['action']=='addSucriptor')
-{
-
-    if(!empty($_POST["nombre"]) && !empty($_POST["telefono"]) && !empty($_POST["correo"]) ){
-        
-        $nombre = $_POST['nombre'];
-        $telefono = $_POST['telefono'];
-        $correo = $_POST['correo'];    
-
-        $instanciaController = new Suscriptor($nombre, $telefono, $correo);
-        $r = $instanciaController->buscarSuscriptor()["resultado"];
-
-        //r = 0
-        if ($r == 0){
-            //registrar
-            //r = 1
-            $r = $instanciaController->nuevoSuscriptor();
-        }
-
-        //r > 0
-        if ($r > 0) {
-            $response = [
-                'status' => true,
-                'msg' => 'Usuario registrado correctamente.',
-                'type' => 'success'
-            ];
-        } else {
-            $response = [
-                'status' => false,
-                'msg' => 'Ocurrió un error al registrar el usuario.',
-                'type' => 'success'
-            ];
-        }
-    }else{
-        $response = [
-            'status' => false,
-            'msg' => 'Es necesario completar todos los campos.',
-            'type' => 'warning'
-        ];
-    }
-
-    echo json_encode($response);
 }
