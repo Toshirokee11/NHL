@@ -79,16 +79,15 @@ class Usuario{
     {
     
         $ic = new Conexion();
+        
+        $sql = "DELETE FROM galeria WHERE idcliente='$this->id'";
+        $deleteGallery = $ic->db->prepare($sql);
+        $deleteGallery->execute();
+        
         $sql = "DELETE FROM users WHERE id='$this->id'";
         $insertar = $ic->db->prepare($sql);
         return $insertar->execute();
     
-    /*
-        $ic = new Conexion();
-        $sql = "UPDATE users SET status='0' WHERE id='$this->id'";
-        $insertar = $ic->db->prepare($sql);
-        return $insertar->execute();
-    */
     }//___________________________________________________________________________________
 
     protected function showuser()

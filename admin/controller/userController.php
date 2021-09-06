@@ -244,7 +244,7 @@ if(isset($_POST['action']) && $_POST['action']=='delete')
     $instanciaController = new UserController();
     $id = intval($_POST['id']);
     $instanciaController->deleteuser($id);
-
+    
 }//___________________________________________________________________________
 
 if(isset($_GET['action']) && $_GET['action']=='showuser')
@@ -281,7 +281,7 @@ if(isset($_POST['action']) && $_POST['action']=='deletegallery')
 {
     $instanciaController = new UserController();
 
-    $eliminarimage = $_SERVER["DOCUMENT_ROOT"]."/neonhouseled/admin/imgGallery/" . $_POST['nameimage'];
+    $eliminarimage = $_SERVER["DOCUMENT_ROOT"]."/admin/imgGallery/" . $_POST['nameimage'];
     unlink($eliminarimage);
 
     $id = intval($_POST['id']);
