@@ -7,8 +7,8 @@ class Conexion{
     {
     $host = "localhost";
     $dbname = "ghxumdmy_neonhouselednew";
-    $username = "ghxumdmy_neonhoselednew";
-    $password = "C,nnQLkM7a!p";
+    $username = "root";
+    $password = "";
     /*
     $host = "localhost";
     $dbname = "ghxumdmy_neonhouselednew";
