@@ -188,6 +188,6 @@
             <input type="submit"  id="login" value="Ingresar"/>
         </form>
     </div>
-    <script src="js/login.js" ></script>
+    <script src="../js/login.js" ></script>
   </body>
 </html>
