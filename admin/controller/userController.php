@@ -1,7 +1,10 @@
 <?php
 
 require_once dirname(dirname(__FILE__)) .'/model/userModel.php';
+<<<<<<< HEAD
 require_once dirname(dirname(__FILE__)) .'/model/suscriptorModel.php';
+=======
+>>>>>>> 3f8cff30cdec1cc4eec93e7976396d55ba28b9c2
 require_once 'staterController.php';
 $sesion = new StaterController();
 
@@ -245,7 +248,11 @@ if(isset($_POST['action']) && $_POST['action']=='delete')
     $instanciaController = new UserController();
     $id = intval($_POST['id']);
     $instanciaController->deleteuser($id);
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 3f8cff30cdec1cc4eec93e7976396d55ba28b9c2
 }//___________________________________________________________________________
 
 if(isset($_GET['action']) && $_GET['action']=='showuser')
@@ -315,6 +322,7 @@ if(isset($_POST['action']) && $_POST['action']=='changeStatusForUser'){
         $status=0;
     }
     $instanciaController->changeUserStatus($id,$status);
+<<<<<<< HEAD
 }
 /**NUEVO SUSCRIPTOR */
 if(isset($_POST['action']) && $_POST['action']=='addSucriptor')
@@ -357,4 +365,6 @@ if(isset($_POST['action']) && $_POST['action']=='addSucriptor')
         ];
     }
     echo json_encode($response);
+=======
+>>>>>>> 3f8cff30cdec1cc4eec93e7976396d55ba28b9c2
 }

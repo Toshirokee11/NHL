@@ -1,33 +1,33 @@
-$("#login").submit(function(e){
+$("#login").submit(function(e) {
     e.preventDefault();
 
-    if($('#nombre').val()== "" || $('#telefono').val() == "" || $('#correo').val() == "" ){
+    if ($('#nombre').val() == "" || $('#telefono').val() == "" || $('#correo').val() == "") {
         Swal.fire({
             icon: 'warning',
             title: 'Opps..!',
             text: 'Tiene que completar los campos.'
         });
-    }else{
+    } else {
 
         let nombre = $("#nombre").val();
         let telefono = $("#telefono").val();
         let correo = $("#correo").val();
         var data = {
-            nombre:nombre,
-            telefono:telefono,
-            correo:correo,
-            action:"addSucriptor"
+            nombre: nombre,
+            telefono: telefono,
+            correo: correo,
+            action: "addSucriptor"
         }
 
         $.ajax({
             type: "POST",
             url: "../../admin/controller/userController.php",
             data: data,
-            success: function(data){
+            success: function(data) {
                 data = JSON.parse(data);
                 console.log(data);
 
-                if(data.status) {
+                if (data.status) {
                     //alert("cookie agregada usuario");
                     document.cookie = "user=true; max-age=3600; path=/";
                     document.cookie = "modal=1; max-age=2; path=/";
@@ -39,12 +39,12 @@ $("#login").submit(function(e){
                         text: data.msg
                     });
                 }
-            }                
+            }
         })
 
     }
 
-});     
+});
 
 $(document).ready(() => {
     if (document.cookie.includes("user")) {
