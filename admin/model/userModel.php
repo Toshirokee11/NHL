@@ -77,24 +77,10 @@ class Usuario{
 
     protected function userdelete()
     {
-<<<<<<< HEAD
         $ic = new Conexion();
         $sql = "DELETE FROM users WHERE id='$this->id'";
         $insertar = $ic->db->prepare($sql);
         return $insertar->execute();
-=======
-    
-        $ic = new Conexion();
-        
-        $sql = "DELETE FROM galeria WHERE idcliente='$this->id'";
-        $deleteGallery = $ic->db->prepare($sql);
-        $deleteGallery->execute();
-        
-        $sql = "DELETE FROM users WHERE id='$this->id'";
-        $insertar = $ic->db->prepare($sql);
-        return $insertar->execute();
-    
->>>>>>> 3f8cff30cdec1cc4eec93e7976396d55ba28b9c2
     }//___________________________________________________________________________________
 
     protected function showuser()

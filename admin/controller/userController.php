@@ -1,10 +1,7 @@
 <?php
 
 require_once dirname(dirname(__FILE__)) .'/model/userModel.php';
-<<<<<<< HEAD
 require_once dirname(dirname(__FILE__)) .'/model/suscriptorModel.php';
-=======
->>>>>>> 3f8cff30cdec1cc4eec93e7976396d55ba28b9c2
 require_once 'staterController.php';
 $sesion = new StaterController();
 
@@ -248,11 +245,7 @@ if(isset($_POST['action']) && $_POST['action']=='delete')
     $instanciaController = new UserController();
     $id = intval($_POST['id']);
     $instanciaController->deleteuser($id);
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> 3f8cff30cdec1cc4eec93e7976396d55ba28b9c2
 }//___________________________________________________________________________
 
 if(isset($_GET['action']) && $_GET['action']=='showuser')
@@ -322,13 +315,13 @@ if(isset($_POST['action']) && $_POST['action']=='changeStatusForUser'){
         $status=0;
     }
     $instanciaController->changeUserStatus($id,$status);
-<<<<<<< HEAD
 }
 /**NUEVO SUSCRIPTOR */
 if(isset($_POST['action']) && $_POST['action']=='addSucriptor')
 {
     if(!empty($_POST["nombre"]) && !empty($_POST["telefono"]) && !empty($_POST["correo"]) ){
         
+        $res = ["status"=>false,"msg"=>"","type"=>"error"];
         $nombre = $_POST['nombre'];
         $telefono = $_POST['telefono'];
         $correo = $_POST['correo'];    
@@ -345,26 +338,15 @@ if(isset($_POST['action']) && $_POST['action']=='addSucriptor')
 
         //r > 0
         if ($r > 0) {
-            $response = [
-                'status' => true,
-                'msg' => 'Usuario registrado correctamente.',
-                'type' => 'success'
-            ];
+            $res['status']=true;
+            $res['msg'] = "Usuario registrado correctamente.";
+            $res['type'] = "success";
         } else {
-            $response = [
-                'status' => false,
-                'msg' => 'Ocurrió un error al registrar el usuario.',
-                'type' => 'success'
-            ];
+            $res['msg'] ='Ocurrió un error al registrar el usuario.';
         }
     }else{
-        $response = [
-            'status' => false,
-            'msg' => 'Es necesario completar todos los campos.',
-            'type' => 'warning'
-        ];
+        $res['msg'] = 'Es necesario completar todos los campos.';
+        $res['type'] = "warning";
     }
-    echo json_encode($response);
-=======
->>>>>>> 3f8cff30cdec1cc4eec93e7976396d55ba28b9c2
+    echo json_encode($res);
 }

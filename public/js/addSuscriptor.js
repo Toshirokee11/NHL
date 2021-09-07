@@ -28,10 +28,19 @@ $("#login").submit(function(e) {
                 console.log(data);
 
                 if (data.status) {
+                    setTimeout(() => {
+
+                        document.cookie = "user=true; max-age=3600; path=/";
+                        document.cookie = "modal=1; max-age=5; path=/";
+                        location.reload();
+                    }, 1000);
+                    Swal.fire({
+                        icon: data.type,
+                        title: 'Gracias!',
+                        text: data.msg
+                    });
                     //alert("cookie agregada usuario");
-                    document.cookie = "user=true; max-age=3600; path=/";
-                    document.cookie = "modal=1; max-age=2; path=/";
-                    location.reload();
+
                 } else {
                     Swal.fire({
                         icon: data.type,
