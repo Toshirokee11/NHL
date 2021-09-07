@@ -30,7 +30,7 @@
 
             <div class="contact-form-container">
                 <!-- Formulario -->
-                <form class="contact-form" action="../controladores/enviarcorreo.php" method="POST">
+                <form id="formContact" class="contact-form" action="../controladores/enviarcorreo.php" method="POST">
                     <!-- Nombres -->
                     <div class="box-container">
                         <label for="full_name">
