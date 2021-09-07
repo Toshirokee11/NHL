@@ -73,6 +73,6 @@
 
 
     <?php require_once "layout/foother.php" ?>
-    <script src="../public/js/contact.js"></script>
+    <script defer src="../public/js/contact.js"></script>
     </body>
 </html>
