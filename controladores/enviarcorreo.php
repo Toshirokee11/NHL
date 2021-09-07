@@ -1,7 +1,8 @@
 
 <?php
+$res= ["msg"=>"¡Ocurrio un error inesperado!","type"=>"error"];
 
-if (isset($_POST["enviar"])) {
+if (isset($_POST["full_name"]) && isset($_POST['email']) && isset($_POST['telephone']) && isset($_POST['career'])) {
     $Nombres  = $_POST['full_name'];
     $Email   = $_POST['email'];
     $Telefono= $_POST['telephone'];
@@ -9,8 +10,7 @@ if (isset($_POST["enviar"])) {
     //$Mensaje = $_POST['mensaje'];
 
     if ($Nombres=='' || $Email=='' || $Telefono=='' || !is_numeric($Telefono) || strlen($Telefono)!=9  || $Mensaje==''){ 
-        echo "<script>
-            alert('Todos los campos no han sido rellenados o datos erroneos.');location.href ='javascript:history.back()';</script>";
+        $res['msg']="Datos erróneos, porfavor vuelva a llenar los campos";
 
     }else{
         require '../public/mailer/PHPMailerAutoload.php';
@@ -42,13 +42,15 @@ if (isset($_POST["enviar"])) {
         $mail->Username = 'postula@neonhouseled.com';  // en local, tu correo gmail // en servidor, nombre usuario
         $mail->Password = 'n37qO#Ua7Dl%'; // en local, tu contrasena gmail //en servidor, contraseña de usuario
         
-        if ($mail->Send())
-        //echo "<script>swal('Formulario enviado exitosamente', 'le responderemos lo mas pronto posible.','success');window.location.href='../index.php';</script>";
-        echo "<script>alert('Formulario enviado exitosamente, le responderemos lo mas pronto posible.'); window.location.href='../index.php';</script>";
-        else
-        echo "<script>alert('Error al enviar el formulario');location.href ='javascript:history.back()';</script>";
-
+        if ($mail->Send()){
+        $res['msg'] = "¡Muchas gracias por contactarnos!";
+        $res['type'] = "success";
+        }else{
+            $res['msg'] = "¡Ocurrió un error inesperado!";
+        }
     }
+    echo json_encode($res);
+}else{
+    echo json_encode($res);
 }
 ?>
-
