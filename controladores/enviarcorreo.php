@@ -20,7 +20,7 @@ if (isset($_POST["full_name"]) && isset($_POST['email']) && isset($_POST['teleph
         
         $mail = new PHPMailer();
         $mail->setFrom($Email,$Nombres);
-        $mail->addAddress('jeffrey.ostos@gmail.com'); //ventasneonhouse@  correo a la que le llegaran los correos 
+        $mail->addAddress('ventasneonhouse@gmail.com'); //ventasneonhouse@  correo a la que le llegaran los correos 
         $mail->addReplyTo($Email,$Nombres);
     
         // Aqu¨ª van los datos que apareceran en el correo que reciba  
