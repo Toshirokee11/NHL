@@ -5,6 +5,7 @@ $res= ["msg"=>"¡Ocurrio un error inesperado!","type"=>"error"];
 if (isset($_POST["full_name"]) && isset($_POST['email']) && isset($_POST['telephone']) && isset($_POST['career'])) {
     $Nombres  = $_POST['full_name'];
     $Email   = $_POST['email'];
+    $Interesed_in = $_POST['interesed_service'];
     $Telefono= $_POST['telephone'];
     $Mensaje = $_POST['career'];
     //$Mensaje = $_POST['mensaje'];
@@ -19,7 +20,7 @@ if (isset($_POST["full_name"]) && isset($_POST['email']) && isset($_POST['teleph
         
         $mail = new PHPMailer();
         $mail->setFrom($Email,$Nombres);
-        $mail->addAddress('ventasneonhouse@gmail.com'); //ventasneonhouse@  correo a la que le llegaran los correos 
+        $mail->addAddress('jeffrey.ostos@gmail.com'); //ventasneonhouse@  correo a la que le llegaran los correos 
         $mail->addReplyTo($Email,$Nombres);
     
         // Aqu¨ª van los datos que apareceran en el correo que reciba  
@@ -29,6 +30,7 @@ if (isset($_POST["full_name"]) && isset($_POST['email']) && isset($_POST['teleph
         $mail->Body="Nombre: ". $Nombres . ".<br>
                     Telefono: ". $Telefono . ".<br>
                     Correo: ". $Email .".<br>
+                    Interesado en:". $Interesed_in .".<br> 
                     Mensaje: ". $Mensaje."<br><br>
                     <strong>Mensaje del Desarrollador</strong>: Click al boton ''Responder'' para escribir un mensaje a ". $Email.".";
 

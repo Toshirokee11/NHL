@@ -1,7 +1,17 @@
 <!--Ajax-->
 <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    
+<?php 
+    $consulta="Consulta General";
+    if(isset($_GET["v"]))
+    {
+        if($_GET["v"] != null)
+        {
+            $consulta = base64_decode($_GET["v"]);
+        }
+    }
+?>
+
     <header class="header">
         <figure class="logo-container">
             <a href="../../index.php">

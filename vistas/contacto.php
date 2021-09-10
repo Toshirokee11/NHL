@@ -52,6 +52,13 @@
                             <input type="text" name="email" id="email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" title="e.g. aso@gmail.com" required>
                         </label>
                     </div>
+                    <!--Interses de Servicio-->
+                    <div class="box-container">
+                        <label for="interesed_service">
+                            <h2>Interesado En:</h2>
+                            <input type="text" name="interesed_service" id="interesed_service" value="<?php echo $consulta?>" readonly>
+                        </label>
+                    </div>
                     <!-- Mensaje -->
                     <div class="box-container">
                         <label for="career">
