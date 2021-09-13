@@ -42,7 +42,7 @@
                     <div class="box-container">
                         <label for="telephone">
                             <h2>Número de Celular</h2>
-                            <input type="tel" name="telephone" id="telephone" pattern="[0-9]{9,12}" title="debe conter numeros" required>
+                            <input type="number" name="telephone" id="telephone" pattern="[0-9]{9,12}" title="debe conter numeros" required>
                         </label>
                     </div>
                     <!-- E-mail -->
