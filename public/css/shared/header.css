@@ -315,7 +315,7 @@ a{
 	text-transform:uppercase;
 	font-family:'Proxima-Nova-Bold'
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:968px){
 	.header{
 		position:fixed;
 		z-index:200
