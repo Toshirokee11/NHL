@@ -42,14 +42,14 @@
                     <div class="box-container">
                         <label for="telephone">
                             <h2>Número de Celular</h2>
-                            <input type="text" name="telephone" id="telephone" pattern="[0-9]{9,12}" title="debe conter numeros" required>
+                            <input type="tel" name="telephone" id="telephone" pattern="[0-9]{9,12}" title="debe conter numeros" required>
                         </label>
                     </div>
                     <!-- E-mail -->
                     <div class="box-container">
                         <label for="email">
                             <h2>E-mail</h2>
-                            <input type="text" name="email" id="email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" title="e.g. aso@gmail.com" required>
+                            <input type="email" name="email" id="email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" title="e.g. aso@gmail.com" required>
                         </label>
                     </div>
                     <!--Interses de Servicio-->
