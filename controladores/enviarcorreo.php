@@ -20,34 +20,41 @@ if (isset($_POST["full_name"]) && isset($_POST['email']) && isset($_POST['teleph
         
         $mail = new PHPMailer();
         $mail->setFrom($Email,$Nombres);
-        $mail->addAddress('ventasneonhouse@gmail.com
-        '); //ventasneonhouse@  correo a la que le llegaran los correos 
+        $mail->addAddress($Email); //ventasneonhouse@  correo a la que le llegaran los correos - ventasneonhouse@gmail.com || email cliente
         $mail->addReplyTo($Email,$Nombres);
     
         // Aqu¨ª van los datos que apareceran en el correo que reciba  
         $mail->WordWrap = 50; 
         $mail->IsHTML(true);      
         $mail->Subject='Enviado por '.$Nombres;
-        $mail->Body="Nombre: ". $Nombres . ".<br>
-                    Telefono: ". $Telefono . ".<br>
-                    Correo: ". $Email .".<br>
-                    Interesado en:". $Interesed_in .".<br> 
-                    Mensaje: ". $Mensaje."<br><br>
-                    <strong>Mensaje del Desarrollador</strong>: Click al boton ''Responder'' para escribir un mensaje a ". $Email.".";
+        $template = file_get_contents('../vistas/layout/templateMail.php');
+        $bodyAux = str_replace('Nombre', $Nombres, $template);
+        $body = str_replace('Interes', $Interesed_in, $bodyAux);
 
         // Datos del servidor SMTP
         $mail->IsSMTP();
         $mail->CharSet = 'UTF-8';
         $mail->SMTPAuth = true;
         $mail->SMTPSecure = "ssl";
-        $mail->Host = "mail.neonhouseled.com"; //servidor smtp, esto lo puedes dejar igual
+        $mail->Host = "mail.neonhouseled.com"; //servidor smtp, esto lo puedes dejar igual | mail.neonhouseled.com
         $mail->Port = 465; //puerto smtp de gmail, tambien lo puedes dejar igual
-        $mail->Username = 'postula@neonhouseled.com';  // en local, tu correo gmail // en servidor, nombre usuario
-        $mail->Password = 'n37qO#Ua7Dl%'; // en local, tu contrasena gmail //en servidor, contraseña de usuario
-        
+        $mail->Username = 'postula@neonhouseled.com';  // en local, tu correo gmail // en servidor, nombre usuario - postula@neonhouseled.com
+        $mail->Password = 'n37qO#Ua7Dl%'; // en local, tu contrasena gmail //en servidor, contraseña de usuario - n37qO#Ua7Dl%
+        $mail->Body = $body;
+
         if ($mail->Send()){
-        $res['msg'] = "¡Muchas gracias por contactarnos!";
-        $res['type'] = "success";
+            $res['msg'] = "¡Muchas gracias por contactarnos!";
+            $res['type'] = "success";
+            $mail->clearAddresses();
+            $mail->addAddress('ventasneonhouse@gmail.com'); //email admin
+            $template = file_get_contents('../vistas/layout/templateMailAdmin.php');
+            while ($val = current($_POST)) {
+                $bodyAux = str_replace(key($_POST), $val, $template);
+                $template = $bodyAux;
+                next($_POST); //IMPORTANTE, NO BORRAR(RIESGO DE CICLO INFINITO)
+            }
+            $mail->Body = $template;
+            $mail->Send();
         }else{
             $res['msg'] = "¡Ocurrió un error inesperado!";
         }
