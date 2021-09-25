@@ -105,7 +105,11 @@ class UserController extends Usuario {
     public function deleteuser($id)
     {
         $this->id = $id;
+        //Eliminar las imagenes corresponden a usuario
+        
+        //Eliminar usuario
         $delete = $this->userdelete();
+        
         echo $delete ? json_encode(['title' => 'Perfecto!', 'text' => 'Usuario Eliminado Correctamente','icon' => 'success']):
         json_encode(['title' => 'Noo!', 'text' => 'No se Pudo Eliminar al Usuario','icon' => 'error']);
         
@@ -242,8 +246,10 @@ if(isset($_POST['action']) && $_POST['action']=='newuser')
 
 if(isset($_POST['action']) && $_POST['action']=='delete')
 {
+    //Receptor ajax
     $instanciaController = new UserController();
     $id = intval($_POST['id']);
+    
     $instanciaController->deleteuser($id);
 
 }//___________________________________________________________________________

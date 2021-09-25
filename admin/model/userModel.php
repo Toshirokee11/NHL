@@ -77,10 +77,30 @@ class Usuario{
 
     protected function userdelete()
     {
-        $ic = new Conexion();
-        $sql = "DELETE FROM users WHERE id='$this->id'";
-        $insertar = $ic->db->prepare($sql);
-        return $insertar->execute();
+        $return = false;
+        
+        $gallery = $this->getGalleryForUser($this->id);
+        foreach($gallery as $img){
+            unlink($_SERVER["DOCUMENT_ROOT"]."/admin/imgGallery/" . $img['image']);
+            $this->idgallery = $img['id'];
+            $this->deleteYouGallery();
+        }
+        $gallery = $this->getGalleryForUser($this->id);
+        if(sizeof($gallery)==0){
+              $return = true;
+        }else{
+            $return = false;
+        }
+        $cnx = new Conexion();
+        $stmt = $cnx->db->prepare("DELETE FROM users WHERE id = :id");
+        $stmt->bindValue(":id",$this->id,PDO::PARAM_INT);
+        $stmt->execute();
+        if($stmt->rowCount()!=0){
+            $return = true;
+        }else{
+            $return = false;
+        }
+        return $return;
     }//___________________________________________________________________________________
 
     protected function showuser()
@@ -160,6 +180,13 @@ class Usuario{
 
     }
 
+    protected function getGalleryForUser($id){
+        $cnx = new Conexion();
+        $stmt = $cnx->db->prepare("SELECT id,idcliente,image FROM galeria WHERE idcliente = :idcliente");
+        $stmt->bindValue(":idcliente",$id,PDO::PARAM_INT);
+        $stmt->execute();
+        return $stmt->fetchAll();
+    }
 
     /***
      * Metodo para cambiar estado de usuario deshabilitado/habilitado
