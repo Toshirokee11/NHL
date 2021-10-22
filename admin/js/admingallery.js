@@ -44,24 +44,32 @@ $(function() {
             id: id,
             nameimage: nameimage
         }
-        $.ajax({
-            type: "POST",
-            url: "../controller/userController.php",
-            data: data,
-            success: function(response) {
-                let result = JSON.parse(response);
-                swal({
-                    title: result.title,
-                    text: result.text,
-                    icon: result.icon
-                }).then(function() {
-                    $("#galeria").DataTable().ajax.reload(null, false);
+        swal({
+            title: 'Eliminar',
+            text: '¿Desea eliminar el registro actual?',
+            icon: 'warning',
+            buttons: true,
+            dangerMode: true
+        }).then(val => {
+            if (val) {
+                $.ajax({
+                    type: "POST",
+                    url: "../controller/userController.php",
+                    data: data,
+                    success: function(response) {
+                        let result = JSON.parse(response);
+                        swal({
+                            title: result.title,
+                            text: result.text,
+                            icon: result.icon
+                        }).then(function() {
+                            $("#galeria").DataTable().ajax.reload(null, false);
+                        });
+                    },
                 });
-
-
-            },
-
+            }
         });
+        
 
     });
 
